@@ -1,0 +1,19 @@
+# Env A: Silo-Bench Paradigm I numeric tasks with transport-layer numeric corruption.
+# Point glob at your acl26-silo-bench clone (regenerate n6 tasks with their generator for 6 agents).
+run_name: silo_numeric_T1
+out_dir: runs
+tasks: {source: silo, glob: "../acl26-silo-bench/benchmarks/I-0*_n5.json", limit: 10}
+agents:
+  n_whitebox: 2
+  backends:
+    whitebox:  {type: whitebox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+    blackbox:  {type: hf_blackbox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+malice:
+  enabled: true
+  agent: random_blackbox
+  tier: T1
+  transport: {rate: 0.2, mode: plausible, consistent: true}   # numeric corruption of outgoing messages
+graph: {type: complete}
+rounds: {max: 8, min: 2}
+conditions: [honest, attacked]
+seeds: [0]

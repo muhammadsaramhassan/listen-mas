@@ -1,0 +1,27 @@
+# Main setting (H100): hidden-profile, broadcast, N=6, 2 white-box readers, T1 attacker (plausible, 20%).
+# Black-box agents via API (set OPENAI_API_KEY) or point base_url at a local vLLM server;
+# swap `blackbox` for the hf_blackbox line to use open weights as proxy.
+run_name: main_broadcast_T1
+out_dir: runs
+tasks:
+  source: dir
+  dir: tasks/eval          # generate with scripts/gen_tasks.py --seed0 1000 --n 300
+agents:
+  n_whitebox: 2
+  backends:
+    whitebox:  {type: whitebox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+    blackbox:  {type: api, model: gpt-4o-mini, api_key_env: OPENAI_API_KEY}
+    # blackbox: {type: api, model: Qwen/Qwen3-8B, base_url: http://localhost:8000/v1, api_key_env: NONE}
+    # blackbox: {type: hf_blackbox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+malice: {enabled: true, agent: random_blackbox, tier: T1, rate: 0.2, n_claims: 3, plausible: true}
+graph: {type: complete}
+rounds: {max: 10, min: 3}
+generation: {max_new_tokens: 350, temperature: 0.0}
+conditions: [honest, attacked]
+seeds: [0]
+orchestrator:
+  enabled: false           # set true after calibrating: scripts/calibrate.py -> calibration.json
+  scorer: {type: probe, path: results/probe_qwen3_8b/report/best_probe.npz}
+  calibration: runs/main_broadcast_T1/calibration.json
+  quorum: 2
+  n_min: 3

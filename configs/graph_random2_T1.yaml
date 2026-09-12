@@ -1,0 +1,14 @@
+# Sparse fixed communication graph (each agent messages 2 random neighbours, symmetric).
+run_name: graph_random2_T1
+out_dir: runs
+tasks: {source: dir, dir: tasks/eval}
+agents:
+  n_whitebox: 2
+  backends:
+    whitebox:  {type: whitebox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+    blackbox:  {type: hf_blackbox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+malice: {enabled: true, agent: random_blackbox, tier: T1, rate: 0.2, n_claims: 3}
+graph: {type: random_k, k: 2, seed: 0, symmetric: true}
+rounds: {max: 12, min: 3}
+conditions: [honest, attacked]
+seeds: [0]

@@ -1,0 +1,14 @@
+# Held-out external validation: the 65 official HiddenBench tasks (3-4 agents native). Never train on these.
+run_name: hiddenbench_heldout
+out_dir: runs
+tasks: {source: hiddenbench, path: data/hiddenbench_benchmark.json}
+agents:
+  n_whitebox: 1
+  backends:
+    whitebox:  {type: whitebox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+    blackbox:  {type: hf_blackbox, model: Qwen/Qwen3-8B, dtype: bfloat16, chat_template_kwargs: {enable_thinking: false}}
+malice: {enabled: true, agent: random_blackbox, tier: T1, rate: 0.2}
+graph: {type: complete}
+rounds: {max: 8, min: 3}
+conditions: [honest, attacked]
+seeds: [0]
