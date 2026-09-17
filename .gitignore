@@ -1,5 +1,41 @@
 .venv/
+venv/
+env/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*$py.class
 *.npz
 .pytest_cache/
+.hf_cache/
+
+# Type checking, linting, and coverage
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local tools and operating-system files
+.vscode/
+.idea/
+.DS_Store
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated experiment outputs
+logs/
+runs/
+results/
+
+# Model and experiment caches
+.cache/
+wandb/
+tensorboard/

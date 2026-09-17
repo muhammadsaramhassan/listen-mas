@@ -98,10 +98,23 @@ class Runner:
                 a.system_prompt = self.build_system_prompt(a)
 
     # ------------------------------------------------------------------
+    # def _default_answer_instruction(self) -> str:
+    #     if self.task.possible_answers:
+    #         return "Allowed answers: " + ", ".join(self.task.possible_answers) + \
+    #                ". Submit with <answer>X</answer> where X is exactly one allowed answer (e.g. the letter)."
+    #     return "Submit your final value with <answer>VALUE</answer>."
+
     def _default_answer_instruction(self) -> str:
         if self.task.possible_answers:
-            return "Allowed answers: " + ", ".join(self.task.possible_answers) + \
-                   ". Submit with <answer>X</answer> where X is exactly one allowed answer (e.g. the letter)."
+            opts = ", ".join(self.task.possible_answers)
+            return (
+                f"Allowed answers: {opts}. "
+                "IMPORTANT RULES: "
+                "(1) In rounds 1-3, DO NOT submit an answer. Focus ONLY on sharing ALL your private information. "
+                "(2) From round 4 onward, make a tally for each option: count positives minus negatives. "
+                "(3) The option with the highest net score is best. "
+                "(4) Submit with <answer>X</answer> only after round 3."
+            )
         return "Submit your final value with <answer>VALUE</answer>."
 
     def build_system_prompt(self, a: AgentState) -> str:

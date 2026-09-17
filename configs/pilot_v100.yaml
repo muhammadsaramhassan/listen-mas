@@ -1,0 +1,21 @@
+# Pilot on a local GPU (RTX 6000 / V100). Qwen3-8B shared by all agents:
+# 2 white-box readers (hooked) + 4 black-box proxies (same weights, not hooked).
+# On V100 set dtype: float16 (no bf16 support). Qwen3-8B fp16 ~16 GB.
+run_name: pilot_local_T0
+out_dir: runs
+tasks:
+  source: generate
+  generate: {n: 20, seed0: 0, n_agents: 6, duplication: 2, shared_fraction: 0.4}
+agents:
+  n_whitebox: 2
+  backends:
+    whitebox:  {type: whitebox,    model: Qwen/Qwen3-8B, dtype: float16, chat_template_kwargs: {enable_thinking: false}}
+    blackbox:  {type: hf_blackbox, model: Qwen/Qwen3-8B, dtype: float16, chat_template_kwargs: {enable_thinking: false}}
+malice: {enabled: true, agent: random_blackbox, tier: T0, rate: 1.0, n_claims: 3, plausible: true}
+graph: {type: complete}
+rounds: {max: 8, min: 3}
+generation: {max_new_tokens: 350, temperature: 0.0}
+conditions: [honest, attacked]
+seeds: [0]
+announce_ejection: true
+orchestrator: {enabled: false}
