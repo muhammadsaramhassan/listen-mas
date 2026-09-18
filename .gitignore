@@ -19,6 +19,8 @@ htmlcov/
 build/
 dist/
 *.egg-info/
+*.tgz
+*.whl
 
 # Local tools and operating-system files
 .vscode/
