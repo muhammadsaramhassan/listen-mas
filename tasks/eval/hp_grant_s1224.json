@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_grant_s1224",
+ "kind": "hidden_profile",
+ "world_id": "w1224",
+ "domain": "grant",
+ "description": "You are one of several reviewers on a foundation panel deciding which research proposal to fund. Each reviewer has read different sections and different external assessments.\n\nThe options are:\n- Proposal A (Beldax Quotirmo)\n- Proposal B (Ozdaxdra Kethori)\n- Proposal C (Belsanans Vadax)\n- Proposal D (Ithdaxquo Moume)\n\nExactly one option is best overall. Which proposal should be funded? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A has secured access to the required data\n  - Proposal A commits to open data and code\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B includes no training component\n  - Proposal B has committed partner institutions\n  - Proposal B has a credible dissemination plan\nProposal C (Belsanans Vadax):\n  - Proposal C commits to open data and code\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has a team with a strong track record\n  - Proposal C uses methods with known flaws\n  - Proposal C received 5 positive external reviews out of 5\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D has a clear risk mitigation plan\n  - Proposal D has ethics approval in place\n  - Proposal D has partners who have not confirmed",
+   "fact_ids": [
+    "A:data",
+    "A:open",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:students",
+    "B:partners",
+    "B:dissemination",
+    "C:open",
+    "C:prior_delivery",
+    "C:team",
+    "C:methods",
+    "C:reviewers_pos",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:risk",
+    "D:ethics",
+    "D:partners"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A has no clear path to impact\n  - Proposal A has a team with a strong track record\n  - Proposal A has secured access to the required data\n  - Proposal A commits to open data and code\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B has a team with little relevant experience\n  - Proposal B has committed partner institutions\n  - Proposal B has a credible dissemination plan\nProposal C (Belsanans Vadax):\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has a team with a strong track record\n  - Proposal C received 5 positive external reviews out of 5\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D has a clear risk mitigation plan\n  - Proposal D has partners who have not confirmed\n  - Proposal D lists 15 relevant prior publications by the team",
+   "fact_ids": [
+    "A:impact",
+    "A:team",
+    "A:data",
+    "A:open",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:team",
+    "B:partners",
+    "B:dissemination",
+    "C:prior_delivery",
+    "C:team",
+    "C:reviewers_pos",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:risk",
+    "D:partners",
+    "D:prior_pubs"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A has no clear path to impact\n  - Proposal A has a team with a strong track record\n  - Proposal A has an inflated budget\n  - Proposal A commits to open data and code\n  - Proposal A has a PI with a history of late deliverables\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B has a team with little relevant experience\n  - Proposal B has committed partner institutions\n  - Proposal B has an unrealistic timeline\n  - Proposal B has a credible dissemination plan\n  - Proposal B requests 723 thousand in total\n  - Proposal B plans to finish in 59 months\nProposal C (Belsanans Vadax):\n  - Proposal C commits to open data and code\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has a team with a strong track record\n  - Proposal C has an unrealistic timeline\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D has partners who have not confirmed\n  - Proposal D requests 281 thousand in total",
+   "fact_ids": [
+    "A:impact",
+    "A:team",
+    "A:budget",
+    "A:open",
+    "A:prior_delivery",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:team",
+    "B:partners",
+    "B:feasibility",
+    "B:dissemination",
+    "B:cost",
+    "B:months",
+    "C:open",
+    "C:prior_delivery",
+    "C:team",
+    "C:feasibility",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:partners",
+    "D:cost"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A commits to open data and code\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B has committed partner institutions\n  - Proposal B has a credible dissemination plan\n  - Proposal B requests 723 thousand in total\nProposal C (Belsanans Vadax):\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has the required equipment already\n  - Proposal C has a team with a strong track record\n  - Proposal C uses methods with known flaws\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D addresses a genuinely open question\n  - Proposal D has partners who have not confirmed\n  - Proposal D requests 281 thousand in total",
+   "fact_ids": [
+    "A:open",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:partners",
+    "B:dissemination",
+    "B:cost",
+    "C:prior_delivery",
+    "C:infrastructure",
+    "C:team",
+    "C:methods",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:novelty",
+    "D:partners",
+    "D:cost"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A commits to open data and code\n  - Proposal A has a PI with a history of late deliverables\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B has committed partner institutions\n  - Proposal B has a credible dissemination plan\n  - Proposal B plans to finish in 59 months\nProposal C (Belsanans Vadax):\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has the required equipment already\n  - Proposal C has a team with a strong track record\n  - Proposal C has an unrealistic timeline\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D addresses a genuinely open question\n  - Proposal D has partners who have not confirmed\n  - Proposal D lists 15 relevant prior publications by the team",
+   "fact_ids": [
+    "A:open",
+    "A:prior_delivery",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:partners",
+    "B:dissemination",
+    "B:months",
+    "C:prior_delivery",
+    "C:infrastructure",
+    "C:team",
+    "C:feasibility",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:novelty",
+    "D:partners",
+    "D:prior_pubs"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Proposal A (Beldax Quotirmo):\n  - Proposal A has an inflated budget\n  - Proposal A commits to open data and code\n  - Proposal A lists 1 relevant prior publications by the team\n  - Proposal A requests 254 thousand in total\nProposal B (Ozdaxdra Kethori):\n  - Proposal B has a PI with a history of late deliverables\n  - Proposal B includes no training component\n  - Proposal B has committed partner institutions\n  - Proposal B has an unrealistic timeline\n  - Proposal B has a credible dissemination plan\nProposal C (Belsanans Vadax):\n  - Proposal C has a PI with a history of late deliverables\n  - Proposal C has a team with a strong track record\n  - Proposal C plans to finish in 21 months\nProposal D (Ithdaxquo Moume):\n  - Proposal D has no dissemination plan\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D has partners who have not confirmed",
+   "fact_ids": [
+    "A:budget",
+    "A:open",
+    "A:prior_pubs",
+    "A:cost",
+    "B:prior_delivery",
+    "B:students",
+    "B:partners",
+    "B:feasibility",
+    "B:dissemination",
+    "C:prior_delivery",
+    "C:team",
+    "C:months",
+    "D:dissemination",
+    "D:team",
+    "D:ethics",
+    "D:partners"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "D",
+ "facts": {
+  "A:impact": {
+   "fact_id": "A:impact",
+   "option": "A",
+   "dim": "impact",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has no clear path to impact",
+   "neg_text": "Proposal A has a plausible path to real-world impact",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:team": {
+   "fact_id": "A:team",
+   "option": "A",
+   "dim": "team",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A has a team with a strong track record",
+   "neg_text": "Proposal A has a team with little relevant experience",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:budget": {
+   "fact_id": "A:budget",
+   "option": "A",
+   "dim": "budget",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has an inflated budget",
+   "neg_text": "Proposal A has a well-justified budget",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:data": {
+   "fact_id": "A:data",
+   "option": "A",
+   "dim": "data",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A has secured access to the required data",
+   "neg_text": "Proposal A has not secured access to the required data",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:open": {
+   "fact_id": "A:open",
+   "option": "A",
+   "dim": "open",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A commits to open data and code",
+   "neg_text": "Proposal A makes no open-science commitment",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:prior_delivery": {
+   "fact_id": "A:prior_delivery",
+   "option": "A",
+   "dim": "prior_delivery",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has a PI with a history of late deliverables",
+   "neg_text": "Proposal A has a PI who delivered previous grants on time",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:prior_pubs": {
+   "fact_id": "A:prior_pubs",
+   "option": "A",
+   "dim": "prior_pubs",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal A lists 1 relevant prior publications by the team",
+   "neg_text": "Proposal A lists 14 relevant prior publications by the team",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 14
+  },
+  "A:cost": {
+   "fact_id": "A:cost",
+   "option": "A",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal A requests 254 thousand in total",
+   "neg_text": "Proposal A requests 770 thousand in total",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 254,
+   "neg_value": 770
+  },
+  "B:prior_delivery": {
+   "fact_id": "B:prior_delivery",
+   "option": "B",
+   "dim": "prior_delivery",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has a PI with a history of late deliverables",
+   "neg_text": "Proposal B has a PI who delivered previous grants on time",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:team": {
+   "fact_id": "B:team",
+   "option": "B",
+   "dim": "team",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has a team with little relevant experience",
+   "neg_text": "Proposal B has a team with a strong track record",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:students": {
+   "fact_id": "B:students",
+   "option": "B",
+   "dim": "students",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B includes no training component",
+   "neg_text": "Proposal B includes funded training for students",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:partners": {
+   "fact_id": "B:partners",
+   "option": "B",
+   "dim": "partners",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has committed partner institutions",
+   "neg_text": "Proposal B has partners who have not confirmed",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:feasibility": {
+   "fact_id": "B:feasibility",
+   "option": "B",
+   "dim": "feasibility",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has an unrealistic timeline",
+   "neg_text": "Proposal B has a realistic timeline",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:dissemination": {
+   "fact_id": "B:dissemination",
+   "option": "B",
+   "dim": "dissemination",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has a credible dissemination plan",
+   "neg_text": "Proposal B has no dissemination plan",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:cost": {
+   "fact_id": "B:cost",
+   "option": "B",
+   "dim": "cost",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal B requests 723 thousand in total",
+   "neg_text": "Proposal B requests 281 thousand in total",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": 723,
+   "neg_value": 281
+  },
+  "B:months": {
+   "fact_id": "B:months",
+   "option": "B",
+   "dim": "months",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal B plans to finish in 59 months",
+   "neg_text": "Proposal B plans to finish in 26 months",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_2"
+   ],
+   "value": 59,
+   "neg_value": 26
+  },
+  "C:open": {
+   "fact_id": "C:open",
+   "option": "C",
+   "dim": "open",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C commits to open data and code",
+   "neg_text": "Proposal C makes no open-science commitment",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:prior_delivery": {
+   "fact_id": "C:prior_delivery",
+   "option": "C",
+   "dim": "prior_delivery",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has a PI with a history of late deliverables",
+   "neg_text": "Proposal C has a PI who delivered previous grants on time",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:infrastructure": {
+   "fact_id": "C:infrastructure",
+   "option": "C",
+   "dim": "infrastructure",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C has the required equipment already",
+   "neg_text": "Proposal C would need to purchase major equipment",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:team": {
+   "fact_id": "C:team",
+   "option": "C",
+   "dim": "team",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C has a team with a strong track record",
+   "neg_text": "Proposal C has a team with little relevant experience",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:methods": {
+   "fact_id": "C:methods",
+   "option": "C",
+   "dim": "methods",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C uses methods with known flaws",
+   "neg_text": "Proposal C uses rigorous methods",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:feasibility": {
+   "fact_id": "C:feasibility",
+   "option": "C",
+   "dim": "feasibility",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has an unrealistic timeline",
+   "neg_text": "Proposal C has a realistic timeline",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:reviewers_pos": {
+   "fact_id": "C:reviewers_pos",
+   "option": "C",
+   "dim": "reviewers_pos",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal C received 5 positive external reviews out of 5",
+   "neg_text": "Proposal C received 1 positive external reviews out of 5",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": 5,
+   "neg_value": 1
+  },
+  "C:months": {
+   "fact_id": "C:months",
+   "option": "C",
+   "dim": "months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal C plans to finish in 21 months",
+   "neg_text": "Proposal C plans to finish in 57 months",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 21,
+   "neg_value": 57
+  },
+  "D:dissemination": {
+   "fact_id": "D:dissemination",
+   "option": "D",
+   "dim": "dissemination",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D has no dissemination plan",
+   "neg_text": "Proposal D has a credible dissemination plan",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:team": {
+   "fact_id": "D:team",
+   "option": "D",
+   "dim": "team",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has a team with a strong track record",
+   "neg_text": "Proposal D has a team with little relevant experience",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:novelty": {
+   "fact_id": "D:novelty",
+   "option": "D",
+   "dim": "novelty",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D addresses a genuinely open question",
+   "neg_text": "Proposal D largely duplicates existing work",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:risk": {
+   "fact_id": "D:risk",
+   "option": "D",
+   "dim": "risk",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has a clear risk mitigation plan",
+   "neg_text": "Proposal D has no risk mitigation plan",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:ethics": {
+   "fact_id": "D:ethics",
+   "option": "D",
+   "dim": "ethics",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has ethics approval in place",
+   "neg_text": "Proposal D has an unresolved ethics concern",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:partners": {
+   "fact_id": "D:partners",
+   "option": "D",
+   "dim": "partners",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D has partners who have not confirmed",
+   "neg_text": "Proposal D has committed partner institutions",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:cost": {
+   "fact_id": "D:cost",
+   "option": "D",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal D requests 281 thousand in total",
+   "neg_text": "Proposal D requests 744 thousand in total",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": 281,
+   "neg_value": 744
+  },
+  "D:prior_pubs": {
+   "fact_id": "D:prior_pubs",
+   "option": "D",
+   "dim": "prior_pubs",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal D lists 15 relevant prior publications by the team",
+   "neg_text": "Proposal D lists 1 relevant prior publications by the team",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_1"
+   ],
+   "value": 15,
+   "neg_value": 1
+  }
+ },
+ "meta": {
+  "decoy": "B",
+  "names": {
+   "A": "Beldax Quotirmo",
+   "B": "Ozdaxdra Kethori",
+   "C": "Belsanans Vadax",
+   "D": "Ithdaxquo Moume"
+  },
+  "labels": {
+   "A": "Proposal A (Beldax Quotirmo)",
+   "B": "Proposal B (Ozdaxdra Kethori)",
+   "C": "Proposal C (Belsanans Vadax)",
+   "D": "Proposal D (Ithdaxquo Moume)"
+  },
+  "totals": {
+   "A": 0,
+   "B": -4,
+   "C": 2,
+   "D": 4
+  },
+  "shared_totals": {
+   "A": 1,
+   "B": 1,
+   "C": 1,
+   "D": -1
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1224
+ }
+}

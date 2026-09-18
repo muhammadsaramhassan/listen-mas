@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_procurement_s1069",
+ "kind": "hidden_profile",
+ "world_id": "w1069",
+ "domain": "procurement",
+ "description": "You are one of several procurement officers at a hospital network choosing a vendor for a new patient-records system. Each officer has reviewed different parts of the bids and reference checks.\n\nThe options are:\n- Vendor A (Yerwel Nepol)\n- Vendor B (Sogartal Movokbel)\n- Vendor C (Negar Nethoans)\n- Vendor D (Momirke Ozlyn)\n\nExactly one option is best overall. Which vendor should be selected? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A has reported financial difficulties\n  - Vendor A has strong references from similar hospitals\n  - Vendor A quoted a total cost of 311 thousand per year\nVendor B (Sogartal Movokbel):\n  - Vendor B imposes heavy penalties for contract exit\n  - Vendor B has unresolved compliance findings\n  - Vendor B uses a proprietary format only\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\n  - Vendor B quoted a total cost of 312 thousand per year\nVendor C (Negar Nethoans):\n  - Vendor C has a clear product roadmap\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\n  - Vendor C quoted a total cost of 611 thousand per year\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D has no published product roadmap\n  - Vendor D has poor references from similar hospitals\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:finances",
+    "A:references",
+    "A:cost",
+    "B:exit",
+    "B:compliance",
+    "B:interop",
+    "B:training",
+    "B:deploy_months",
+    "B:cost",
+    "C:roadmap",
+    "C:uptime",
+    "C:training",
+    "C:cost",
+    "D:support",
+    "D:roadmap",
+    "D:references",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A offers straightforward contract exit terms\n  - Vendor A has reported financial difficulties\n  - Vendor A has strong references from similar hospitals\n  - Vendor A quoted a total cost of 311 thousand per year\nVendor B (Sogartal Movokbel):\n  - Vendor B has unresolved compliance findings\n  - Vendor B uses a proprietary format only\n  - Vendor B refuses to include an uptime guarantee\n  - Vendor B offers 24/7 on-call support\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\n  - Vendor B quoted a total cost of 312 thousand per year\nVendor C (Negar Nethoans):\n  - Vendor C has a clear product roadmap\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\n  - Vendor C quoted a total cost of 611 thousand per year\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D charges extra for data migration\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:exit",
+    "A:finances",
+    "A:references",
+    "A:cost",
+    "B:compliance",
+    "B:interop",
+    "B:uptime",
+    "B:support",
+    "B:training",
+    "B:deploy_months",
+    "B:cost",
+    "C:roadmap",
+    "C:uptime",
+    "C:training",
+    "C:cost",
+    "D:support",
+    "D:migration",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A performs encrypted off-site backups\n  - Vendor A has reported financial difficulties\n  - Vendor A currently serves 68 hospital clients\nVendor B (Sogartal Movokbel):\n  - Vendor B uses a proprietary format only\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\nVendor C (Negar Nethoans):\n  - Vendor C includes free data migration\n  - Vendor C has a clear product roadmap\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D provides no staff training\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:backup",
+    "A:finances",
+    "A:clients",
+    "B:interop",
+    "B:training",
+    "B:deploy_months",
+    "C:migration",
+    "C:roadmap",
+    "C:uptime",
+    "C:training",
+    "D:support",
+    "D:training",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A offers straightforward contract exit terms\n  - Vendor A has reported financial difficulties\nVendor B (Sogartal Movokbel):\n  - Vendor B imposes heavy penalties for contract exit\n  - Vendor B uses a proprietary format only\n  - Vendor B refuses to include an uptime guarantee\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\nVendor C (Negar Nethoans):\n  - Vendor C allows workflow customisation\n  - Vendor C has a clear product roadmap\n  - Vendor C imposes heavy penalties for contract exit\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D charges extra for data migration\n  - Vendor D uses a proprietary format only\n  - Vendor D provides no staff training\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:exit",
+    "A:finances",
+    "B:exit",
+    "B:interop",
+    "B:uptime",
+    "B:training",
+    "B:deploy_months",
+    "C:customisation",
+    "C:roadmap",
+    "C:exit",
+    "C:uptime",
+    "C:training",
+    "D:support",
+    "D:migration",
+    "D:interop",
+    "D:training",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A has reported financial difficulties\n  - Vendor A currently serves 68 hospital clients\nVendor B (Sogartal Movokbel):\n  - Vendor B uses a proprietary format only\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\nVendor C (Negar Nethoans):\n  - Vendor C has a clear product roadmap\n  - Vendor C imposes heavy penalties for contract exit\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\n  - Vendor C reported 1 major outages last year\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D uses a proprietary format only\n  - Vendor D has poor references from similar hospitals\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:finances",
+    "A:clients",
+    "B:interop",
+    "B:training",
+    "B:deploy_months",
+    "C:roadmap",
+    "C:exit",
+    "C:uptime",
+    "C:training",
+    "C:outages",
+    "D:support",
+    "D:interop",
+    "D:references",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Vendor A (Yerwel Nepol):\n  - Vendor A offers support only during business hours\n  - Vendor A supports standard interoperability formats\n  - Vendor A performs encrypted off-site backups\n  - Vendor A has reported financial difficulties\nVendor B (Sogartal Movokbel):\n  - Vendor B uses a proprietary format only\n  - Vendor B offers 24/7 on-call support\n  - Vendor B provides no staff training\n  - Vendor B estimates deployment will take 15 months\nVendor C (Negar Nethoans):\n  - Vendor C includes free data migration\n  - Vendor C allows workflow customisation\n  - Vendor C has a clear product roadmap\n  - Vendor C refuses to include an uptime guarantee\n  - Vendor C provides on-site staff training\n  - Vendor C reported 1 major outages last year\nVendor D (Momirke Ozlyn):\n  - Vendor D offers 24/7 on-call support\n  - Vendor D has no published product roadmap\n  - Vendor D currently serves 50 hospital clients\n  - Vendor D estimates deployment will take 4 months",
+   "fact_ids": [
+    "A:support",
+    "A:interop",
+    "A:backup",
+    "A:finances",
+    "B:interop",
+    "B:support",
+    "B:training",
+    "B:deploy_months",
+    "C:migration",
+    "C:customisation",
+    "C:roadmap",
+    "C:uptime",
+    "C:training",
+    "C:outages",
+    "D:support",
+    "D:roadmap",
+    "D:clients",
+    "D:deploy_months"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "A",
+ "facts": {
+  "A:support": {
+   "fact_id": "A:support",
+   "option": "A",
+   "dim": "support",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor A offers support only during business hours",
+   "neg_text": "Vendor A offers 24/7 on-call support",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:interop": {
+   "fact_id": "A:interop",
+   "option": "A",
+   "dim": "interop",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A supports standard interoperability formats",
+   "neg_text": "Vendor A uses a proprietary format only",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:exit": {
+   "fact_id": "A:exit",
+   "option": "A",
+   "dim": "exit",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A offers straightforward contract exit terms",
+   "neg_text": "Vendor A imposes heavy penalties for contract exit",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:backup": {
+   "fact_id": "A:backup",
+   "option": "A",
+   "dim": "backup",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A performs encrypted off-site backups",
+   "neg_text": "Vendor A keeps backups only on-site",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:finances": {
+   "fact_id": "A:finances",
+   "option": "A",
+   "dim": "finances",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor A has reported financial difficulties",
+   "neg_text": "Vendor A is financially stable",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:references": {
+   "fact_id": "A:references",
+   "option": "A",
+   "dim": "references",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A has strong references from similar hospitals",
+   "neg_text": "Vendor A has poor references from similar hospitals",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:clients": {
+   "fact_id": "A:clients",
+   "option": "A",
+   "dim": "clients",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor A currently serves 68 hospital clients",
+   "neg_text": "Vendor A currently serves 5 hospital clients",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_2"
+   ],
+   "value": 68,
+   "neg_value": 5
+  },
+  "A:cost": {
+   "fact_id": "A:cost",
+   "option": "A",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor A quoted a total cost of 311 thousand per year",
+   "neg_text": "Vendor A quoted a total cost of 618 thousand per year",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": 311,
+   "neg_value": 618
+  },
+  "B:exit": {
+   "fact_id": "B:exit",
+   "option": "B",
+   "dim": "exit",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B imposes heavy penalties for contract exit",
+   "neg_text": "Vendor B offers straightforward contract exit terms",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:compliance": {
+   "fact_id": "B:compliance",
+   "option": "B",
+   "dim": "compliance",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B has unresolved compliance findings",
+   "neg_text": "Vendor B is fully compliant with health-data regulations",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:interop": {
+   "fact_id": "B:interop",
+   "option": "B",
+   "dim": "interop",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B uses a proprietary format only",
+   "neg_text": "Vendor B supports standard interoperability formats",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:uptime": {
+   "fact_id": "B:uptime",
+   "option": "B",
+   "dim": "uptime",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B refuses to include an uptime guarantee",
+   "neg_text": "Vendor B guarantees 99.9% uptime in its contract",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:support": {
+   "fact_id": "B:support",
+   "option": "B",
+   "dim": "support",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor B offers 24/7 on-call support",
+   "neg_text": "Vendor B offers support only during business hours",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:training": {
+   "fact_id": "B:training",
+   "option": "B",
+   "dim": "training",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B provides no staff training",
+   "neg_text": "Vendor B provides on-site staff training",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:deploy_months": {
+   "fact_id": "B:deploy_months",
+   "option": "B",
+   "dim": "deploy_months",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Vendor B estimates deployment will take 15 months",
+   "neg_text": "Vendor B estimates deployment will take 3 months",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 15,
+   "neg_value": 3
+  },
+  "B:cost": {
+   "fact_id": "B:cost",
+   "option": "B",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor B quoted a total cost of 312 thousand per year",
+   "neg_text": "Vendor B quoted a total cost of 683 thousand per year",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": 312,
+   "neg_value": 683
+  },
+  "C:migration": {
+   "fact_id": "C:migration",
+   "option": "C",
+   "dim": "migration",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C includes free data migration",
+   "neg_text": "Vendor C charges extra for data migration",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:customisation": {
+   "fact_id": "C:customisation",
+   "option": "C",
+   "dim": "customisation",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C allows workflow customisation",
+   "neg_text": "Vendor C allows no customisation",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:roadmap": {
+   "fact_id": "C:roadmap",
+   "option": "C",
+   "dim": "roadmap",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C has a clear product roadmap",
+   "neg_text": "Vendor C has no published product roadmap",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:exit": {
+   "fact_id": "C:exit",
+   "option": "C",
+   "dim": "exit",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C imposes heavy penalties for contract exit",
+   "neg_text": "Vendor C offers straightforward contract exit terms",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:uptime": {
+   "fact_id": "C:uptime",
+   "option": "C",
+   "dim": "uptime",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C refuses to include an uptime guarantee",
+   "neg_text": "Vendor C guarantees 99.9% uptime in its contract",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:training": {
+   "fact_id": "C:training",
+   "option": "C",
+   "dim": "training",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C provides on-site staff training",
+   "neg_text": "Vendor C provides no staff training",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:cost": {
+   "fact_id": "C:cost",
+   "option": "C",
+   "dim": "cost",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Vendor C quoted a total cost of 611 thousand per year",
+   "neg_text": "Vendor C quoted a total cost of 314 thousand per year",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": 611,
+   "neg_value": 314
+  },
+  "C:outages": {
+   "fact_id": "C:outages",
+   "option": "C",
+   "dim": "outages",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor C reported 1 major outages last year",
+   "neg_text": "Vendor C reported 9 major outages last year",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 9
+  },
+  "D:support": {
+   "fact_id": "D:support",
+   "option": "D",
+   "dim": "support",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor D offers 24/7 on-call support",
+   "neg_text": "Vendor D offers support only during business hours",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:migration": {
+   "fact_id": "D:migration",
+   "option": "D",
+   "dim": "migration",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D charges extra for data migration",
+   "neg_text": "Vendor D includes free data migration",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:roadmap": {
+   "fact_id": "D:roadmap",
+   "option": "D",
+   "dim": "roadmap",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D has no published product roadmap",
+   "neg_text": "Vendor D has a clear product roadmap",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:interop": {
+   "fact_id": "D:interop",
+   "option": "D",
+   "dim": "interop",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D uses a proprietary format only",
+   "neg_text": "Vendor D supports standard interoperability formats",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:training": {
+   "fact_id": "D:training",
+   "option": "D",
+   "dim": "training",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D provides no staff training",
+   "neg_text": "Vendor D provides on-site staff training",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:references": {
+   "fact_id": "D:references",
+   "option": "D",
+   "dim": "references",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D has poor references from similar hospitals",
+   "neg_text": "Vendor D has strong references from similar hospitals",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:clients": {
+   "fact_id": "D:clients",
+   "option": "D",
+   "dim": "clients",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor D currently serves 50 hospital clients",
+   "neg_text": "Vendor D currently serves 2 hospital clients",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 50,
+   "neg_value": 2
+  },
+  "D:deploy_months": {
+   "fact_id": "D:deploy_months",
+   "option": "D",
+   "dim": "deploy_months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor D estimates deployment will take 4 months",
+   "neg_text": "Vendor D estimates deployment will take 11 months",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 4,
+   "neg_value": 11
+  }
+ },
+ "meta": {
+  "decoy": "D",
+  "names": {
+   "A": "Yerwel Nepol",
+   "B": "Sogartal Movokbel",
+   "C": "Negar Nethoans",
+   "D": "Momirke Ozlyn"
+  },
+  "labels": {
+   "A": "Vendor A (Yerwel Nepol)",
+   "B": "Vendor B (Sogartal Movokbel)",
+   "C": "Vendor C (Negar Nethoans)",
+   "D": "Vendor D (Momirke Ozlyn)"
+  },
+  "totals": {
+   "A": 4,
+   "B": -4,
+   "C": 2,
+   "D": -2
+  },
+  "shared_totals": {
+   "A": -1,
+   "B": -3,
+   "C": 1,
+   "D": 3
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1069
+ }
+}

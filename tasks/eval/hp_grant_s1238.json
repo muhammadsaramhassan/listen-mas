@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_grant_s1238",
+ "kind": "hidden_profile",
+ "world_id": "w1238",
+ "domain": "grant",
+ "description": "You are one of several reviewers on a foundation panel deciding which research proposal to fund. Each reviewer has read different sections and different external assessments.\n\nThe options are:\n- Proposal A (Sotirith Ithbre)\n- Proposal B (Luhesklu Ludax)\n- Proposal C (Ansumequo Yerlyndra)\n- Proposal D (Ozvokbel Lurinlu)\n\nExactly one option is best overall. Which proposal should be funded? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A includes funded training for students\n  - Proposal A commits to open data and code\nProposal B (Luhesklu Ludax):\n  - Proposal B has a team with a strong track record\n  - Proposal B has an unresolved ethics concern\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\n  - Proposal B received 4 positive external reviews out of 5\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C is confusingly written\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D uses methods with known flaws\n  - Proposal D received 5 positive external reviews out of 5",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:students",
+    "A:open",
+    "B:team",
+    "B:ethics",
+    "B:methods",
+    "B:dissemination",
+    "B:reviewers_pos",
+    "C:writing",
+    "C:risk",
+    "C:novelty",
+    "C:methods",
+    "D:team",
+    "D:ethics",
+    "D:methods",
+    "D:reviewers_pos"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A lists 10 relevant prior publications by the team\nProposal B (Luhesklu Ludax):\n  - Proposal B commits to open data and code\n  - Proposal B has a team with a strong track record\n  - Proposal B has not secured access to the required data\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C makes no open-science commitment\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\n  - Proposal C received 5 positive external reviews out of 5\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D uses methods with known flaws\n  - Proposal D has a realistic timeline\n  - Proposal D received 5 positive external reviews out of 5\n  - Proposal D lists 2 relevant prior publications by the team",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:prior_pubs",
+    "B:open",
+    "B:team",
+    "B:data",
+    "B:methods",
+    "B:dissemination",
+    "C:risk",
+    "C:open",
+    "C:novelty",
+    "C:methods",
+    "C:reviewers_pos",
+    "D:team",
+    "D:ethics",
+    "D:methods",
+    "D:feasibility",
+    "D:reviewers_pos",
+    "D:prior_pubs"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A has a well-justified budget\n  - Proposal A lists 10 relevant prior publications by the team\nProposal B (Luhesklu Ludax):\n  - Proposal B has a team with a strong track record\n  - Proposal B has an unresolved ethics concern\n  - Proposal B has not secured access to the required data\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C has no dissemination plan\n  - Proposal C makes no open-science commitment\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D largely duplicates existing work\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D received 5 positive external reviews out of 5",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:budget",
+    "A:prior_pubs",
+    "B:team",
+    "B:ethics",
+    "B:data",
+    "B:methods",
+    "B:dissemination",
+    "C:risk",
+    "C:dissemination",
+    "C:open",
+    "C:novelty",
+    "C:methods",
+    "D:novelty",
+    "D:team",
+    "D:ethics",
+    "D:reviewers_pos"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A has a well-justified budget\nProposal B (Luhesklu Ludax):\n  - Proposal B has a team with a strong track record\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C has no dissemination plan\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D largely duplicates existing work\n  - Proposal D makes no open-science commitment\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D received 5 positive external reviews out of 5\n  - Proposal D lists 2 relevant prior publications by the team",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:budget",
+    "B:team",
+    "B:methods",
+    "B:dissemination",
+    "C:risk",
+    "C:dissemination",
+    "C:novelty",
+    "C:methods",
+    "D:novelty",
+    "D:open",
+    "D:team",
+    "D:ethics",
+    "D:reviewers_pos",
+    "D:prior_pubs"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A includes funded training for students\n  - Proposal A plans to finish in 22 months\nProposal B (Luhesklu Ludax):\n  - Proposal B has a team with a strong track record\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\n  - Proposal B lists 0 relevant prior publications by the team\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\n  - Proposal C lists 1 relevant prior publications by the team\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D makes no open-science commitment\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D received 5 positive external reviews out of 5",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:students",
+    "A:months",
+    "B:team",
+    "B:methods",
+    "B:dissemination",
+    "B:prior_pubs",
+    "C:risk",
+    "C:novelty",
+    "C:methods",
+    "C:prior_pubs",
+    "D:open",
+    "D:team",
+    "D:ethics",
+    "D:reviewers_pos"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Proposal A (Sotirith Ithbre):\n  - Proposal A has an unresolved ethics concern\n  - Proposal A has no risk mitigation plan\n  - Proposal A has secured access to the required data\n  - Proposal A commits to open data and code\n  - Proposal A plans to finish in 22 months\nProposal B (Luhesklu Ludax):\n  - Proposal B commits to open data and code\n  - Proposal B has a team with a strong track record\n  - Proposal B uses methods with known flaws\n  - Proposal B has no dissemination plan\n  - Proposal B lists 0 relevant prior publications by the team\n  - Proposal B received 4 positive external reviews out of 5\nProposal C (Ansumequo Yerlyndra):\n  - Proposal C is confusingly written\n  - Proposal C has a clear risk mitigation plan\n  - Proposal C addresses a genuinely open question\n  - Proposal C uses rigorous methods\n  - Proposal C received 5 positive external reviews out of 5\n  - Proposal C lists 1 relevant prior publications by the team\nProposal D (Ozvokbel Lurinlu):\n  - Proposal D has a team with a strong track record\n  - Proposal D has ethics approval in place\n  - Proposal D has a realistic timeline\n  - Proposal D received 5 positive external reviews out of 5",
+   "fact_ids": [
+    "A:ethics",
+    "A:risk",
+    "A:data",
+    "A:open",
+    "A:months",
+    "B:open",
+    "B:team",
+    "B:methods",
+    "B:dissemination",
+    "B:prior_pubs",
+    "B:reviewers_pos",
+    "C:writing",
+    "C:risk",
+    "C:novelty",
+    "C:methods",
+    "C:reviewers_pos",
+    "C:prior_pubs",
+    "D:team",
+    "D:ethics",
+    "D:feasibility",
+    "D:reviewers_pos"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "A",
+ "facts": {
+  "A:ethics": {
+   "fact_id": "A:ethics",
+   "option": "A",
+   "dim": "ethics",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has an unresolved ethics concern",
+   "neg_text": "Proposal A has ethics approval in place",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:risk": {
+   "fact_id": "A:risk",
+   "option": "A",
+   "dim": "risk",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has no risk mitigation plan",
+   "neg_text": "Proposal A has a clear risk mitigation plan",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:data": {
+   "fact_id": "A:data",
+   "option": "A",
+   "dim": "data",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A has secured access to the required data",
+   "neg_text": "Proposal A has not secured access to the required data",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:students": {
+   "fact_id": "A:students",
+   "option": "A",
+   "dim": "students",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A includes funded training for students",
+   "neg_text": "Proposal A includes no training component",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:budget": {
+   "fact_id": "A:budget",
+   "option": "A",
+   "dim": "budget",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A has a well-justified budget",
+   "neg_text": "Proposal A has an inflated budget",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:open": {
+   "fact_id": "A:open",
+   "option": "A",
+   "dim": "open",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A commits to open data and code",
+   "neg_text": "Proposal A makes no open-science commitment",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:months": {
+   "fact_id": "A:months",
+   "option": "A",
+   "dim": "months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal A plans to finish in 22 months",
+   "neg_text": "Proposal A plans to finish in 52 months",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 22,
+   "neg_value": 52
+  },
+  "A:prior_pubs": {
+   "fact_id": "A:prior_pubs",
+   "option": "A",
+   "dim": "prior_pubs",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal A lists 10 relevant prior publications by the team",
+   "neg_text": "Proposal A lists 2 relevant prior publications by the team",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": 10,
+   "neg_value": 2
+  },
+  "B:open": {
+   "fact_id": "B:open",
+   "option": "B",
+   "dim": "open",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B commits to open data and code",
+   "neg_text": "Proposal B makes no open-science commitment",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:team": {
+   "fact_id": "B:team",
+   "option": "B",
+   "dim": "team",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has a team with a strong track record",
+   "neg_text": "Proposal B has a team with little relevant experience",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:ethics": {
+   "fact_id": "B:ethics",
+   "option": "B",
+   "dim": "ethics",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has an unresolved ethics concern",
+   "neg_text": "Proposal B has ethics approval in place",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:data": {
+   "fact_id": "B:data",
+   "option": "B",
+   "dim": "data",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has not secured access to the required data",
+   "neg_text": "Proposal B has secured access to the required data",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:methods": {
+   "fact_id": "B:methods",
+   "option": "B",
+   "dim": "methods",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B uses methods with known flaws",
+   "neg_text": "Proposal B uses rigorous methods",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:dissemination": {
+   "fact_id": "B:dissemination",
+   "option": "B",
+   "dim": "dissemination",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B has no dissemination plan",
+   "neg_text": "Proposal B has a credible dissemination plan",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:prior_pubs": {
+   "fact_id": "B:prior_pubs",
+   "option": "B",
+   "dim": "prior_pubs",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal B lists 0 relevant prior publications by the team",
+   "neg_text": "Proposal B lists 12 relevant prior publications by the team",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_4"
+   ],
+   "value": 0,
+   "neg_value": 12
+  },
+  "B:reviewers_pos": {
+   "fact_id": "B:reviewers_pos",
+   "option": "B",
+   "dim": "reviewers_pos",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal B received 4 positive external reviews out of 5",
+   "neg_text": "Proposal B received 0 positive external reviews out of 5",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_5"
+   ],
+   "value": 4,
+   "neg_value": 0
+  },
+  "C:writing": {
+   "fact_id": "C:writing",
+   "option": "C",
+   "dim": "writing",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C is confusingly written",
+   "neg_text": "Proposal C is clearly written",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:risk": {
+   "fact_id": "C:risk",
+   "option": "C",
+   "dim": "risk",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C has a clear risk mitigation plan",
+   "neg_text": "Proposal C has no risk mitigation plan",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:dissemination": {
+   "fact_id": "C:dissemination",
+   "option": "C",
+   "dim": "dissemination",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has no dissemination plan",
+   "neg_text": "Proposal C has a credible dissemination plan",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:open": {
+   "fact_id": "C:open",
+   "option": "C",
+   "dim": "open",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C makes no open-science commitment",
+   "neg_text": "Proposal C commits to open data and code",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:novelty": {
+   "fact_id": "C:novelty",
+   "option": "C",
+   "dim": "novelty",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C addresses a genuinely open question",
+   "neg_text": "Proposal C largely duplicates existing work",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:methods": {
+   "fact_id": "C:methods",
+   "option": "C",
+   "dim": "methods",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C uses rigorous methods",
+   "neg_text": "Proposal C uses methods with known flaws",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:reviewers_pos": {
+   "fact_id": "C:reviewers_pos",
+   "option": "C",
+   "dim": "reviewers_pos",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal C received 5 positive external reviews out of 5",
+   "neg_text": "Proposal C received 1 positive external reviews out of 5",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": 5,
+   "neg_value": 1
+  },
+  "C:prior_pubs": {
+   "fact_id": "C:prior_pubs",
+   "option": "C",
+   "dim": "prior_pubs",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal C lists 1 relevant prior publications by the team",
+   "neg_text": "Proposal C lists 13 relevant prior publications by the team",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 13
+  },
+  "D:novelty": {
+   "fact_id": "D:novelty",
+   "option": "D",
+   "dim": "novelty",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D largely duplicates existing work",
+   "neg_text": "Proposal D addresses a genuinely open question",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:open": {
+   "fact_id": "D:open",
+   "option": "D",
+   "dim": "open",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D makes no open-science commitment",
+   "neg_text": "Proposal D commits to open data and code",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:team": {
+   "fact_id": "D:team",
+   "option": "D",
+   "dim": "team",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has a team with a strong track record",
+   "neg_text": "Proposal D has a team with little relevant experience",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:ethics": {
+   "fact_id": "D:ethics",
+   "option": "D",
+   "dim": "ethics",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has ethics approval in place",
+   "neg_text": "Proposal D has an unresolved ethics concern",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:methods": {
+   "fact_id": "D:methods",
+   "option": "D",
+   "dim": "methods",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D uses methods with known flaws",
+   "neg_text": "Proposal D uses rigorous methods",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:feasibility": {
+   "fact_id": "D:feasibility",
+   "option": "D",
+   "dim": "feasibility",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has a realistic timeline",
+   "neg_text": "Proposal D has an unrealistic timeline",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:reviewers_pos": {
+   "fact_id": "D:reviewers_pos",
+   "option": "D",
+   "dim": "reviewers_pos",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal D received 5 positive external reviews out of 5",
+   "neg_text": "Proposal D received 1 positive external reviews out of 5",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 5,
+   "neg_value": 1
+  },
+  "D:prior_pubs": {
+   "fact_id": "D:prior_pubs",
+   "option": "D",
+   "dim": "prior_pubs",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal D lists 2 relevant prior publications by the team",
+   "neg_text": "Proposal D lists 16 relevant prior publications by the team",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_1"
+   ],
+   "value": 2,
+   "neg_value": 16
+  }
+ },
+ "meta": {
+  "decoy": "C",
+  "names": {
+   "A": "Sotirith Ithbre",
+   "B": "Luhesklu Ludax",
+   "C": "Ansumequo Yerlyndra",
+   "D": "Ozvokbel Lurinlu"
+  },
+  "labels": {
+   "A": "Proposal A (Sotirith Ithbre)",
+   "B": "Proposal B (Luhesklu Ludax)",
+   "C": "Proposal C (Ansumequo Yerlyndra)",
+   "D": "Proposal D (Ozvokbel Lurinlu)"
+  },
+  "totals": {
+   "A": 4,
+   "B": -2,
+   "C": 0,
+   "D": 0
+  },
+  "shared_totals": {
+   "A": -1,
+   "B": -1,
+   "C": 3,
+   "D": 3
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1238
+ }
+}

@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_site_selection_s1284",
+ "kind": "hidden_profile",
+ "world_id": "w1284",
+ "domain": "site_selection",
+ "description": "You are one of several planners at a logistics company choosing where to build a new regional warehouse. Each planner has surveyed different aspects of the candidate sites.\n\nThe options are:\n- Site A (Talcasva Kedaxbel)\n- Site B (Motho Bellyntal)\n- Site C (Taltirdra Lumirva)\n- Site D (Rithoso Kenollu)\n\nExactly one option is best overall. Which site should be chosen? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A is in a high-crime area\n  - Site A has stable soil for heavy foundations\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B faces organised local opposition\n  - Site B saw 0 weather-related road closures last year\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\n  - Site C offers 118 thousand square metres\nSite D (Rithoso Kenollu):\n  - Site D has supportive neighbouring businesses\n  - Site D has unstable soil requiring piling\n  - Site D has a very small local labour pool\n  - Site D is already zoned for industrial use\n  - Site D lies within a flood zone\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:security",
+    "A:soil",
+    "B:labour",
+    "B:flood",
+    "B:neighbours",
+    "B:closures",
+    "C:highway",
+    "C:tax",
+    "C:expansion",
+    "C:area",
+    "D:neighbours",
+    "D:soil",
+    "D:labour",
+    "D:zoning",
+    "D:flood",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A has stable soil for heavy foundations\n  - Site A saw 1 weather-related road closures last year\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B faces organised local opposition\n  - Site B is already zoned for industrial use\n  - Site B is priced at 182 per square metre\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C is far from any cargo airport\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\n  - Site C saw 0 weather-related road closures last year\nSite D (Rithoso Kenollu):\n  - Site D has supportive neighbouring businesses\n  - Site D has permits that can be fast-tracked\n  - Site D has unstable soil requiring piling\n  - Site D is already zoned for industrial use\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:soil",
+    "A:closures",
+    "B:labour",
+    "B:flood",
+    "B:neighbours",
+    "B:zoning",
+    "B:price",
+    "C:highway",
+    "C:airport",
+    "C:tax",
+    "C:expansion",
+    "C:closures",
+    "D:neighbours",
+    "D:permits",
+    "D:soil",
+    "D:zoning",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A has stable soil for heavy foundations\n  - Site A has fibre broadband available\n  - Site A has restricted water supply\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B faces organised local opposition\n  - Site B is priced at 182 per square metre\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C has supportive neighbouring businesses\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\n  - Site C saw 0 weather-related road closures last year\nSite D (Rithoso Kenollu):\n  - Site D has unstable soil requiring piling\n  - Site D is already zoned for industrial use\n  - Site D is 16 minutes from the nearest city centre\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:soil",
+    "A:broadband",
+    "A:water",
+    "B:labour",
+    "B:flood",
+    "B:neighbours",
+    "B:price",
+    "C:highway",
+    "C:neighbours",
+    "C:tax",
+    "C:expansion",
+    "C:closures",
+    "D:soil",
+    "D:zoning",
+    "D:commute",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A has stable soil for heavy foundations\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B has permits that can be fast-tracked\n  - Site B faces organised local opposition\n  - Site B has stable soil for heavy foundations\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C has no rail connection\n  - Site C has supportive neighbouring businesses\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\n  - Site C offers 118 thousand square metres\nSite D (Rithoso Kenollu):\n  - Site D has unstable soil requiring piling\n  - Site D has a very small local labour pool\n  - Site D is already zoned for industrial use\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:soil",
+    "B:labour",
+    "B:flood",
+    "B:permits",
+    "B:neighbours",
+    "B:soil",
+    "C:highway",
+    "C:rail",
+    "C:neighbours",
+    "C:tax",
+    "C:expansion",
+    "C:area",
+    "D:soil",
+    "D:labour",
+    "D:zoning",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A is in a high-crime area\n  - Site A has stable soil for heavy foundations\n  - Site A has fibre broadband available\n  - Site A has restricted water supply\n  - Site A is 65 minutes from the nearest city centre\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B has permits that can be fast-tracked\n  - Site B faces organised local opposition\n  - Site B has stable soil for heavy foundations\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C is far from any cargo airport\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\nSite D (Rithoso Kenollu):\n  - Site D has permits that can be fast-tracked\n  - Site D has unstable soil requiring piling\n  - Site D is already zoned for industrial use\n  - Site D lies within a flood zone\n  - Site D is 16 minutes from the nearest city centre\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:security",
+    "A:soil",
+    "A:broadband",
+    "A:water",
+    "A:commute",
+    "B:labour",
+    "B:flood",
+    "B:permits",
+    "B:neighbours",
+    "B:soil",
+    "C:highway",
+    "C:airport",
+    "C:tax",
+    "C:expansion",
+    "D:permits",
+    "D:soil",
+    "D:zoning",
+    "D:flood",
+    "D:commute",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Site A (Talcasva Kedaxbel):\n  - Site A qualifies for a tax incentive\n  - Site A has a large local labour pool\n  - Site A has stable soil for heavy foundations\n  - Site A saw 1 weather-related road closures last year\n  - Site A is 65 minutes from the nearest city centre\nSite B (Motho Bellyntal):\n  - Site B has a very small local labour pool\n  - Site B is outside the flood zone\n  - Site B faces organised local opposition\n  - Site B is already zoned for industrial use\n  - Site B saw 0 weather-related road closures last year\nSite C (Taltirdra Lumirva):\n  - Site C has no direct highway access\n  - Site C has no rail connection\n  - Site C qualifies for a tax incentive\n  - Site C has no room for expansion\nSite D (Rithoso Kenollu):\n  - Site D has unstable soil requiring piling\n  - Site D is already zoned for industrial use\n  - Site D offers 34 thousand square metres",
+   "fact_ids": [
+    "A:tax",
+    "A:labour",
+    "A:soil",
+    "A:closures",
+    "A:commute",
+    "B:labour",
+    "B:flood",
+    "B:neighbours",
+    "B:zoning",
+    "B:closures",
+    "C:highway",
+    "C:rail",
+    "C:tax",
+    "C:expansion",
+    "D:soil",
+    "D:zoning",
+    "D:area"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "B",
+ "facts": {
+  "A:tax": {
+   "fact_id": "A:tax",
+   "option": "A",
+   "dim": "tax",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A qualifies for a tax incentive",
+   "neg_text": "Site A does not qualify for any tax incentive",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:labour": {
+   "fact_id": "A:labour",
+   "option": "A",
+   "dim": "labour",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A has a large local labour pool",
+   "neg_text": "Site A has a very small local labour pool",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:security": {
+   "fact_id": "A:security",
+   "option": "A",
+   "dim": "security",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site A is in a high-crime area",
+   "neg_text": "Site A is in a low-crime area",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:soil": {
+   "fact_id": "A:soil",
+   "option": "A",
+   "dim": "soil",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A has stable soil for heavy foundations",
+   "neg_text": "Site A has unstable soil requiring piling",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:broadband": {
+   "fact_id": "A:broadband",
+   "option": "A",
+   "dim": "broadband",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A has fibre broadband available",
+   "neg_text": "Site A has no fibre broadband available",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:water": {
+   "fact_id": "A:water",
+   "option": "A",
+   "dim": "water",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site A has restricted water supply",
+   "neg_text": "Site A has adequate water supply",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:closures": {
+   "fact_id": "A:closures",
+   "option": "A",
+   "dim": "closures",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site A saw 1 weather-related road closures last year",
+   "neg_text": "Site A saw 6 weather-related road closures last year",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": 1,
+   "neg_value": 6
+  },
+  "A:commute": {
+   "fact_id": "A:commute",
+   "option": "A",
+   "dim": "commute",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Site A is 65 minutes from the nearest city centre",
+   "neg_text": "Site A is 20 minutes from the nearest city centre",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_4"
+   ],
+   "value": 65,
+   "neg_value": 20
+  },
+  "B:labour": {
+   "fact_id": "B:labour",
+   "option": "B",
+   "dim": "labour",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site B has a very small local labour pool",
+   "neg_text": "Site B has a large local labour pool",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:flood": {
+   "fact_id": "B:flood",
+   "option": "B",
+   "dim": "flood",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B is outside the flood zone",
+   "neg_text": "Site B lies within a flood zone",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:permits": {
+   "fact_id": "B:permits",
+   "option": "B",
+   "dim": "permits",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B has permits that can be fast-tracked",
+   "neg_text": "Site B has a slow permitting history",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:neighbours": {
+   "fact_id": "B:neighbours",
+   "option": "B",
+   "dim": "neighbours",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site B faces organised local opposition",
+   "neg_text": "Site B has supportive neighbouring businesses",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:soil": {
+   "fact_id": "B:soil",
+   "option": "B",
+   "dim": "soil",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B has stable soil for heavy foundations",
+   "neg_text": "Site B has unstable soil requiring piling",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:zoning": {
+   "fact_id": "B:zoning",
+   "option": "B",
+   "dim": "zoning",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B is already zoned for industrial use",
+   "neg_text": "Site B would require a zoning change",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:price": {
+   "fact_id": "B:price",
+   "option": "B",
+   "dim": "price",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site B is priced at 182 per square metre",
+   "neg_text": "Site B is priced at 468 per square metre",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": 182,
+   "neg_value": 468
+  },
+  "B:closures": {
+   "fact_id": "B:closures",
+   "option": "B",
+   "dim": "closures",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site B saw 0 weather-related road closures last year",
+   "neg_text": "Site B saw 8 weather-related road closures last year",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_5"
+   ],
+   "value": 0,
+   "neg_value": 8
+  },
+  "C:highway": {
+   "fact_id": "C:highway",
+   "option": "C",
+   "dim": "highway",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has no direct highway access",
+   "neg_text": "Site C has direct highway access",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:rail": {
+   "fact_id": "C:rail",
+   "option": "C",
+   "dim": "rail",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has no rail connection",
+   "neg_text": "Site C has a rail spur connection",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:airport": {
+   "fact_id": "C:airport",
+   "option": "C",
+   "dim": "airport",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C is far from any cargo airport",
+   "neg_text": "Site C is close to a cargo airport",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:neighbours": {
+   "fact_id": "C:neighbours",
+   "option": "C",
+   "dim": "neighbours",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site C has supportive neighbouring businesses",
+   "neg_text": "Site C faces organised local opposition",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:tax": {
+   "fact_id": "C:tax",
+   "option": "C",
+   "dim": "tax",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site C qualifies for a tax incentive",
+   "neg_text": "Site C does not qualify for any tax incentive",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:expansion": {
+   "fact_id": "C:expansion",
+   "option": "C",
+   "dim": "expansion",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has no room for expansion",
+   "neg_text": "Site C has room for future expansion",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:area": {
+   "fact_id": "C:area",
+   "option": "C",
+   "dim": "area",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site C offers 118 thousand square metres",
+   "neg_text": "Site C offers 41 thousand square metres",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_3"
+   ],
+   "value": 118,
+   "neg_value": 41
+  },
+  "C:closures": {
+   "fact_id": "C:closures",
+   "option": "C",
+   "dim": "closures",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site C saw 0 weather-related road closures last year",
+   "neg_text": "Site C saw 7 weather-related road closures last year",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": 0,
+   "neg_value": 7
+  },
+  "D:neighbours": {
+   "fact_id": "D:neighbours",
+   "option": "D",
+   "dim": "neighbours",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D has supportive neighbouring businesses",
+   "neg_text": "Site D faces organised local opposition",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:permits": {
+   "fact_id": "D:permits",
+   "option": "D",
+   "dim": "permits",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D has permits that can be fast-tracked",
+   "neg_text": "Site D has a slow permitting history",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:soil": {
+   "fact_id": "D:soil",
+   "option": "D",
+   "dim": "soil",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D has unstable soil requiring piling",
+   "neg_text": "Site D has stable soil for heavy foundations",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:labour": {
+   "fact_id": "D:labour",
+   "option": "D",
+   "dim": "labour",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D has a very small local labour pool",
+   "neg_text": "Site D has a large local labour pool",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:zoning": {
+   "fact_id": "D:zoning",
+   "option": "D",
+   "dim": "zoning",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D is already zoned for industrial use",
+   "neg_text": "Site D would require a zoning change",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:flood": {
+   "fact_id": "D:flood",
+   "option": "D",
+   "dim": "flood",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D lies within a flood zone",
+   "neg_text": "Site D is outside the flood zone",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:commute": {
+   "fact_id": "D:commute",
+   "option": "D",
+   "dim": "commute",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site D is 16 minutes from the nearest city centre",
+   "neg_text": "Site D is 59 minutes from the nearest city centre",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": 16,
+   "neg_value": 59
+  },
+  "D:area": {
+   "fact_id": "D:area",
+   "option": "D",
+   "dim": "area",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Site D offers 34 thousand square metres",
+   "neg_text": "Site D offers 101 thousand square metres",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 34,
+   "neg_value": 101
+  }
+ },
+ "meta": {
+  "decoy": "A",
+  "names": {
+   "A": "Talcasva Kedaxbel",
+   "B": "Motho Bellyntal",
+   "C": "Taltirdra Lumirva",
+   "D": "Rithoso Kenollu"
+  },
+  "labels": {
+   "A": "Site A (Talcasva Kedaxbel)",
+   "B": "Site B (Motho Bellyntal)",
+   "C": "Site C (Taltirdra Lumirva)",
+   "D": "Site D (Rithoso Kenollu)"
+  },
+  "totals": {
+   "A": 2,
+   "B": 4,
+   "C": 0,
+   "D": 0
+  },
+  "shared_totals": {
+   "A": 3,
+   "B": -1,
+   "C": -1,
+   "D": -1
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1284
+ }
+}

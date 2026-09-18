@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_grant_s1030",
+ "kind": "hidden_profile",
+ "world_id": "w1030",
+ "domain": "grant",
+ "description": "You are one of several reviewers on a foundation panel deciding which research proposal to fund. Each reviewer has read different sections and different external assessments.\n\nThe options are:\n- Proposal A (Nelynans Kehesktal)\n- Proposal B (Vatho Vabre)\n- Proposal C (Quobrequo Ithume)\n- Proposal D (Motho Belnol)\n\nExactly one option is best overall. Which proposal should be funded? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A makes no open-science commitment\n  - Proposal A has a team with little relevant experience\n  - Proposal A has an unresolved ethics concern\n  - Proposal A requests 267 thousand in total\n  - Proposal A received 1 positive external reviews out of 5\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B has a credible dissemination plan\n  - Proposal B is confusingly written\n  - Proposal B has a plausible path to real-world impact\n  - Proposal B lists 1 relevant prior publications by the team\nProposal C (Quobrequo Ithume):\n  - Proposal C has an inflated budget\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\n  - Proposal C plans to finish in 18 months\nProposal D (Motho Belnol):\n  - Proposal D would need to purchase major equipment\n  - Proposal D has secured access to the required data\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total\n  - Proposal D plans to finish in 22 months",
+   "fact_ids": [
+    "A:open",
+    "A:team",
+    "A:ethics",
+    "A:cost",
+    "A:reviewers_pos",
+    "B:methods",
+    "B:dissemination",
+    "B:writing",
+    "B:impact",
+    "B:prior_pubs",
+    "C:budget",
+    "C:novelty",
+    "C:team",
+    "C:months",
+    "D:infrastructure",
+    "D:data",
+    "D:impact",
+    "D:cost",
+    "D:months"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A makes no open-science commitment\n  - Proposal A has a team with little relevant experience\n  - Proposal A requests 267 thousand in total\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B is confusingly written\n  - Proposal B addresses a genuinely open question\n  - Proposal B lists 1 relevant prior publications by the team\n  - Proposal B requests 285 thousand in total\nProposal C (Quobrequo Ithume):\n  - Proposal C includes funded training for students\n  - Proposal C has an inflated budget\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\n  - Proposal C plans to finish in 18 months\n  - Proposal C requests 287 thousand in total\nProposal D (Motho Belnol):\n  - Proposal D would need to purchase major equipment\n  - Proposal D has a PI with a history of late deliverables\n  - Proposal D has secured access to the required data\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total",
+   "fact_ids": [
+    "A:open",
+    "A:team",
+    "A:cost",
+    "B:methods",
+    "B:writing",
+    "B:novelty",
+    "B:prior_pubs",
+    "B:cost",
+    "C:students",
+    "C:budget",
+    "C:novelty",
+    "C:team",
+    "C:months",
+    "C:cost",
+    "D:infrastructure",
+    "D:prior_delivery",
+    "D:data",
+    "D:impact",
+    "D:cost"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A is confusingly written\n  - Proposal A makes no open-science commitment\n  - Proposal A has a PI who delivered previous grants on time\n  - Proposal A has a team with little relevant experience\n  - Proposal A requests 267 thousand in total\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B is confusingly written\n  - Proposal B has secured access to the required data\n  - Proposal B lists 1 relevant prior publications by the team\n  - Proposal B requests 285 thousand in total\nProposal C (Quobrequo Ithume):\n  - Proposal C includes funded training for students\n  - Proposal C has an inflated budget\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\nProposal D (Motho Belnol):\n  - Proposal D has a PI with a history of late deliverables\n  - Proposal D has secured access to the required data\n  - Proposal D has no risk mitigation plan\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total",
+   "fact_ids": [
+    "A:writing",
+    "A:open",
+    "A:prior_delivery",
+    "A:team",
+    "A:cost",
+    "B:methods",
+    "B:writing",
+    "B:data",
+    "B:prior_pubs",
+    "B:cost",
+    "C:students",
+    "C:budget",
+    "C:novelty",
+    "C:team",
+    "D:prior_delivery",
+    "D:data",
+    "D:risk",
+    "D:impact",
+    "D:cost"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A makes no open-science commitment\n  - Proposal A has no risk mitigation plan\n  - Proposal A has a team with little relevant experience\n  - Proposal A has an unresolved ethics concern\n  - Proposal A requests 267 thousand in total\n  - Proposal A received 1 positive external reviews out of 5\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B is confusingly written\n  - Proposal B lists 1 relevant prior publications by the team\nProposal C (Quobrequo Ithume):\n  - Proposal C has an inflated budget\n  - Proposal C has partners who have not confirmed\n  - Proposal C has ethics approval in place\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\nProposal D (Motho Belnol):\n  - Proposal D is confusingly written\n  - Proposal D has secured access to the required data\n  - Proposal D has no risk mitigation plan\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total",
+   "fact_ids": [
+    "A:open",
+    "A:risk",
+    "A:team",
+    "A:ethics",
+    "A:cost",
+    "A:reviewers_pos",
+    "B:methods",
+    "B:writing",
+    "B:prior_pubs",
+    "C:budget",
+    "C:partners",
+    "C:ethics",
+    "C:novelty",
+    "C:team",
+    "D:writing",
+    "D:data",
+    "D:risk",
+    "D:impact",
+    "D:cost"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A is confusingly written\n  - Proposal A makes no open-science commitment\n  - Proposal A has a team with little relevant experience\n  - Proposal A requests 267 thousand in total\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B has a credible dissemination plan\n  - Proposal B is confusingly written\n  - Proposal B has secured access to the required data\n  - Proposal B has a plausible path to real-world impact\n  - Proposal B lists 1 relevant prior publications by the team\nProposal C (Quobrequo Ithume):\n  - Proposal C has an inflated budget\n  - Proposal C has ethics approval in place\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\nProposal D (Motho Belnol):\n  - Proposal D is confusingly written\n  - Proposal D has secured access to the required data\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total\n  - Proposal D plans to finish in 22 months",
+   "fact_ids": [
+    "A:writing",
+    "A:open",
+    "A:team",
+    "A:cost",
+    "B:methods",
+    "B:dissemination",
+    "B:writing",
+    "B:data",
+    "B:impact",
+    "B:prior_pubs",
+    "C:budget",
+    "C:ethics",
+    "C:novelty",
+    "C:team",
+    "D:writing",
+    "D:data",
+    "D:impact",
+    "D:cost",
+    "D:months"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Proposal A (Nelynans Kehesktal):\n  - Proposal A makes no open-science commitment\n  - Proposal A has a PI who delivered previous grants on time\n  - Proposal A has no risk mitigation plan\n  - Proposal A has a team with little relevant experience\n  - Proposal A requests 267 thousand in total\nProposal B (Vatho Vabre):\n  - Proposal B uses methods with known flaws\n  - Proposal B is confusingly written\n  - Proposal B addresses a genuinely open question\n  - Proposal B lists 1 relevant prior publications by the team\nProposal C (Quobrequo Ithume):\n  - Proposal C has an inflated budget\n  - Proposal C has partners who have not confirmed\n  - Proposal C largely duplicates existing work\n  - Proposal C has a team with little relevant experience\n  - Proposal C requests 287 thousand in total\nProposal D (Motho Belnol):\n  - Proposal D has secured access to the required data\n  - Proposal D has a plausible path to real-world impact\n  - Proposal D requests 266 thousand in total",
+   "fact_ids": [
+    "A:open",
+    "A:prior_delivery",
+    "A:risk",
+    "A:team",
+    "A:cost",
+    "B:methods",
+    "B:writing",
+    "B:novelty",
+    "B:prior_pubs",
+    "C:budget",
+    "C:partners",
+    "C:novelty",
+    "C:team",
+    "C:cost",
+    "D:data",
+    "D:impact",
+    "D:cost"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "B",
+ "facts": {
+  "A:writing": {
+   "fact_id": "A:writing",
+   "option": "A",
+   "dim": "writing",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A is confusingly written",
+   "neg_text": "Proposal A is clearly written",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:open": {
+   "fact_id": "A:open",
+   "option": "A",
+   "dim": "open",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A makes no open-science commitment",
+   "neg_text": "Proposal A commits to open data and code",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:prior_delivery": {
+   "fact_id": "A:prior_delivery",
+   "option": "A",
+   "dim": "prior_delivery",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal A has a PI who delivered previous grants on time",
+   "neg_text": "Proposal A has a PI with a history of late deliverables",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:risk": {
+   "fact_id": "A:risk",
+   "option": "A",
+   "dim": "risk",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has no risk mitigation plan",
+   "neg_text": "Proposal A has a clear risk mitigation plan",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:team": {
+   "fact_id": "A:team",
+   "option": "A",
+   "dim": "team",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has a team with little relevant experience",
+   "neg_text": "Proposal A has a team with a strong track record",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:ethics": {
+   "fact_id": "A:ethics",
+   "option": "A",
+   "dim": "ethics",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal A has an unresolved ethics concern",
+   "neg_text": "Proposal A has ethics approval in place",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:cost": {
+   "fact_id": "A:cost",
+   "option": "A",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal A requests 267 thousand in total",
+   "neg_text": "Proposal A requests 735 thousand in total",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 267,
+   "neg_value": 735
+  },
+  "A:reviewers_pos": {
+   "fact_id": "A:reviewers_pos",
+   "option": "A",
+   "dim": "reviewers_pos",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal A received 1 positive external reviews out of 5",
+   "neg_text": "Proposal A received 4 positive external reviews out of 5",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_0"
+   ],
+   "value": 1,
+   "neg_value": 4
+  },
+  "B:methods": {
+   "fact_id": "B:methods",
+   "option": "B",
+   "dim": "methods",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B uses methods with known flaws",
+   "neg_text": "Proposal B uses rigorous methods",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:dissemination": {
+   "fact_id": "B:dissemination",
+   "option": "B",
+   "dim": "dissemination",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has a credible dissemination plan",
+   "neg_text": "Proposal B has no dissemination plan",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:writing": {
+   "fact_id": "B:writing",
+   "option": "B",
+   "dim": "writing",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal B is confusingly written",
+   "neg_text": "Proposal B is clearly written",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:novelty": {
+   "fact_id": "B:novelty",
+   "option": "B",
+   "dim": "novelty",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B addresses a genuinely open question",
+   "neg_text": "Proposal B largely duplicates existing work",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:data": {
+   "fact_id": "B:data",
+   "option": "B",
+   "dim": "data",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has secured access to the required data",
+   "neg_text": "Proposal B has not secured access to the required data",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:impact": {
+   "fact_id": "B:impact",
+   "option": "B",
+   "dim": "impact",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal B has a plausible path to real-world impact",
+   "neg_text": "Proposal B has no clear path to impact",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:prior_pubs": {
+   "fact_id": "B:prior_pubs",
+   "option": "B",
+   "dim": "prior_pubs",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Proposal B lists 1 relevant prior publications by the team",
+   "neg_text": "Proposal B lists 11 relevant prior publications by the team",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 11
+  },
+  "B:cost": {
+   "fact_id": "B:cost",
+   "option": "B",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal B requests 285 thousand in total",
+   "neg_text": "Proposal B requests 654 thousand in total",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": 285,
+   "neg_value": 654
+  },
+  "C:students": {
+   "fact_id": "C:students",
+   "option": "C",
+   "dim": "students",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C includes funded training for students",
+   "neg_text": "Proposal C includes no training component",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:budget": {
+   "fact_id": "C:budget",
+   "option": "C",
+   "dim": "budget",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has an inflated budget",
+   "neg_text": "Proposal C has a well-justified budget",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:partners": {
+   "fact_id": "C:partners",
+   "option": "C",
+   "dim": "partners",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has partners who have not confirmed",
+   "neg_text": "Proposal C has committed partner institutions",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:ethics": {
+   "fact_id": "C:ethics",
+   "option": "C",
+   "dim": "ethics",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal C has ethics approval in place",
+   "neg_text": "Proposal C has an unresolved ethics concern",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:novelty": {
+   "fact_id": "C:novelty",
+   "option": "C",
+   "dim": "novelty",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C largely duplicates existing work",
+   "neg_text": "Proposal C addresses a genuinely open question",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:team": {
+   "fact_id": "C:team",
+   "option": "C",
+   "dim": "team",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal C has a team with little relevant experience",
+   "neg_text": "Proposal C has a team with a strong track record",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:months": {
+   "fact_id": "C:months",
+   "option": "C",
+   "dim": "months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal C plans to finish in 18 months",
+   "neg_text": "Proposal C plans to finish in 49 months",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": 18,
+   "neg_value": 49
+  },
+  "C:cost": {
+   "fact_id": "C:cost",
+   "option": "C",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal C requests 287 thousand in total",
+   "neg_text": "Proposal C requests 690 thousand in total",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": 287,
+   "neg_value": 690
+  },
+  "D:infrastructure": {
+   "fact_id": "D:infrastructure",
+   "option": "D",
+   "dim": "infrastructure",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D would need to purchase major equipment",
+   "neg_text": "Proposal D has the required equipment already",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:writing": {
+   "fact_id": "D:writing",
+   "option": "D",
+   "dim": "writing",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D is confusingly written",
+   "neg_text": "Proposal D is clearly written",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:prior_delivery": {
+   "fact_id": "D:prior_delivery",
+   "option": "D",
+   "dim": "prior_delivery",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D has a PI with a history of late deliverables",
+   "neg_text": "Proposal D has a PI who delivered previous grants on time",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:data": {
+   "fact_id": "D:data",
+   "option": "D",
+   "dim": "data",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has secured access to the required data",
+   "neg_text": "Proposal D has not secured access to the required data",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:risk": {
+   "fact_id": "D:risk",
+   "option": "D",
+   "dim": "risk",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Proposal D has no risk mitigation plan",
+   "neg_text": "Proposal D has a clear risk mitigation plan",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:impact": {
+   "fact_id": "D:impact",
+   "option": "D",
+   "dim": "impact",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Proposal D has a plausible path to real-world impact",
+   "neg_text": "Proposal D has no clear path to impact",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:cost": {
+   "fact_id": "D:cost",
+   "option": "D",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal D requests 266 thousand in total",
+   "neg_text": "Proposal D requests 659 thousand in total",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 266,
+   "neg_value": 659
+  },
+  "D:months": {
+   "fact_id": "D:months",
+   "option": "D",
+   "dim": "months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Proposal D plans to finish in 22 months",
+   "neg_text": "Proposal D plans to finish in 54 months",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_0"
+   ],
+   "value": 22,
+   "neg_value": 54
+  }
+ },
+ "meta": {
+  "decoy": "D",
+  "names": {
+   "A": "Nelynans Kehesktal",
+   "B": "Vatho Vabre",
+   "C": "Quobrequo Ithume",
+   "D": "Motho Belnol"
+  },
+  "labels": {
+   "A": "Proposal A (Nelynans Kehesktal)",
+   "B": "Proposal B (Vatho Vabre)",
+   "C": "Proposal C (Quobrequo Ithume)",
+   "D": "Proposal D (Motho Belnol)"
+  },
+  "totals": {
+   "A": -4,
+   "B": 2,
+   "C": 0,
+   "D": 0
+  },
+  "shared_totals": {
+   "A": -1,
+   "B": -3,
+   "C": -3,
+   "D": 3
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1030
+ }
+}

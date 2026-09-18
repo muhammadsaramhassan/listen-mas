@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_procurement_s1194",
+ "kind": "hidden_profile",
+ "world_id": "w1194",
+ "domain": "procurement",
+ "description": "You are one of several procurement officers at a hospital network choosing a vendor for a new patient-records system. Each officer has reviewed different parts of the bids and reference checks.\n\nThe options are:\n- Vendor A (Movok Taltho)\n- Vendor B (Mocasdra Fensan)\n- Vendor C (Lucas Neume)\n- Vendor D (Ozhesk Ozcasso)\n\nExactly one option is best overall. Which vendor should be selected? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\nVendor B (Mocasdra Fensan):\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B refuses to include an uptime guarantee\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\n  - Vendor B currently serves 6 hospital clients\nVendor C (Lucas Neume):\n  - Vendor C uses a proprietary format only\n  - Vendor C offers support only during business hours\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation\n  - Vendor D offers 24/7 on-call support\n  - Vendor D estimates deployment will take 3 months\n  - Vendor D currently serves 61 hospital clients",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:compliance",
+    "A:migration",
+    "B:exit",
+    "B:uptime",
+    "B:security_audit",
+    "B:finances",
+    "B:clients",
+    "C:interop",
+    "C:support",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "D:training",
+    "D:exit",
+    "D:customisation",
+    "D:support",
+    "D:deploy_months",
+    "D:clients"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A has a clear product roadmap\n  - Vendor A has poor references from similar hospitals\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\n  - Vendor A estimates deployment will take 14 months\nVendor B (Mocasdra Fensan):\n  - Vendor B keeps backups only on-site\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B has poor references from similar hospitals\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\nVendor C (Lucas Neume):\n  - Vendor C provides on-site staff training\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation\n  - Vendor D currently serves 61 hospital clients",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:roadmap",
+    "A:references",
+    "A:compliance",
+    "A:migration",
+    "A:deploy_months",
+    "B:backup",
+    "B:exit",
+    "B:references",
+    "B:security_audit",
+    "B:finances",
+    "C:training",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "D:training",
+    "D:exit",
+    "D:customisation",
+    "D:clients"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\n  - Vendor A keeps backups only on-site\nVendor B (Mocasdra Fensan):\n  - Vendor B keeps backups only on-site\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B refuses to include an uptime guarantee\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\n  - Vendor B quoted a total cost of 338 thousand per year\nVendor C (Lucas Neume):\n  - Vendor C provides on-site staff training\n  - Vendor C performs encrypted off-site backups\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation\n  - Vendor D includes free data migration",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:compliance",
+    "A:migration",
+    "A:backup",
+    "B:backup",
+    "B:exit",
+    "B:uptime",
+    "B:security_audit",
+    "B:finances",
+    "B:cost",
+    "C:training",
+    "C:backup",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "D:training",
+    "D:exit",
+    "D:customisation",
+    "D:migration"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A has poor references from similar hospitals\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\n  - Vendor A keeps backups only on-site\n  - Vendor A quoted a total cost of 313 thousand per year\n  - Vendor A estimates deployment will take 14 months\nVendor B (Mocasdra Fensan):\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\n  - Vendor B quoted a total cost of 338 thousand per year\nVendor C (Lucas Neume):\n  - Vendor C offers support only during business hours\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation\n  - Vendor D includes free data migration\n  - Vendor D has a stable engineering team\n  - Vendor D estimates deployment will take 3 months",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:references",
+    "A:compliance",
+    "A:migration",
+    "A:backup",
+    "A:cost",
+    "A:deploy_months",
+    "B:exit",
+    "B:security_audit",
+    "B:finances",
+    "B:cost",
+    "C:support",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "D:training",
+    "D:exit",
+    "D:customisation",
+    "D:migration",
+    "D:staff_turnover",
+    "D:deploy_months"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\nVendor B (Mocasdra Fensan):\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B has poor references from similar hospitals\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\nVendor C (Lucas Neume):\n  - Vendor C performs encrypted off-site backups\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\n  - Vendor C estimates deployment will take 12 months\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation\n  - Vendor D has a stable engineering team\n  - Vendor D offers 24/7 on-call support",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:compliance",
+    "A:migration",
+    "B:exit",
+    "B:references",
+    "B:security_audit",
+    "B:finances",
+    "C:backup",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "C:deploy_months",
+    "D:training",
+    "D:exit",
+    "D:customisation",
+    "D:staff_turnover",
+    "D:support"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Vendor A (Movok Taltho):\n  - Vendor A has a stable engineering team\n  - Vendor A has a clear product roadmap\n  - Vendor A is fully compliant with health-data regulations\n  - Vendor A includes free data migration\n  - Vendor A quoted a total cost of 313 thousand per year\nVendor B (Mocasdra Fensan):\n  - Vendor B offers straightforward contract exit terms\n  - Vendor B passed an independent security audit\n  - Vendor B is financially stable\n  - Vendor B currently serves 6 hospital clients\nVendor C (Lucas Neume):\n  - Vendor C uses a proprietary format only\n  - Vendor C charges extra for data migration\n  - Vendor C allows no customisation\n  - Vendor C reported 1 major outages last year\n  - Vendor C estimates deployment will take 12 months\nVendor D (Ozhesk Ozcasso):\n  - Vendor D provides no staff training\n  - Vendor D imposes heavy penalties for contract exit\n  - Vendor D allows workflow customisation",
+   "fact_ids": [
+    "A:staff_turnover",
+    "A:roadmap",
+    "A:compliance",
+    "A:migration",
+    "A:cost",
+    "B:exit",
+    "B:security_audit",
+    "B:finances",
+    "B:clients",
+    "C:interop",
+    "C:migration",
+    "C:customisation",
+    "C:outages",
+    "C:deploy_months",
+    "D:training",
+    "D:exit",
+    "D:customisation"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "D",
+ "facts": {
+  "A:staff_turnover": {
+   "fact_id": "A:staff_turnover",
+   "option": "A",
+   "dim": "staff_turnover",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A has a stable engineering team",
+   "neg_text": "Vendor A has high engineering staff turnover",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:roadmap": {
+   "fact_id": "A:roadmap",
+   "option": "A",
+   "dim": "roadmap",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A has a clear product roadmap",
+   "neg_text": "Vendor A has no published product roadmap",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:references": {
+   "fact_id": "A:references",
+   "option": "A",
+   "dim": "references",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor A has poor references from similar hospitals",
+   "neg_text": "Vendor A has strong references from similar hospitals",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:compliance": {
+   "fact_id": "A:compliance",
+   "option": "A",
+   "dim": "compliance",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A is fully compliant with health-data regulations",
+   "neg_text": "Vendor A has unresolved compliance findings",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:migration": {
+   "fact_id": "A:migration",
+   "option": "A",
+   "dim": "migration",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor A includes free data migration",
+   "neg_text": "Vendor A charges extra for data migration",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:backup": {
+   "fact_id": "A:backup",
+   "option": "A",
+   "dim": "backup",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor A keeps backups only on-site",
+   "neg_text": "Vendor A performs encrypted off-site backups",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:cost": {
+   "fact_id": "A:cost",
+   "option": "A",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor A quoted a total cost of 313 thousand per year",
+   "neg_text": "Vendor A quoted a total cost of 693 thousand per year",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_5"
+   ],
+   "value": 313,
+   "neg_value": 693
+  },
+  "A:deploy_months": {
+   "fact_id": "A:deploy_months",
+   "option": "A",
+   "dim": "deploy_months",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Vendor A estimates deployment will take 14 months",
+   "neg_text": "Vendor A estimates deployment will take 5 months",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": 14,
+   "neg_value": 5
+  },
+  "B:backup": {
+   "fact_id": "B:backup",
+   "option": "B",
+   "dim": "backup",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B keeps backups only on-site",
+   "neg_text": "Vendor B performs encrypted off-site backups",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:exit": {
+   "fact_id": "B:exit",
+   "option": "B",
+   "dim": "exit",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor B offers straightforward contract exit terms",
+   "neg_text": "Vendor B imposes heavy penalties for contract exit",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:uptime": {
+   "fact_id": "B:uptime",
+   "option": "B",
+   "dim": "uptime",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B refuses to include an uptime guarantee",
+   "neg_text": "Vendor B guarantees 99.9% uptime in its contract",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:references": {
+   "fact_id": "B:references",
+   "option": "B",
+   "dim": "references",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor B has poor references from similar hospitals",
+   "neg_text": "Vendor B has strong references from similar hospitals",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:security_audit": {
+   "fact_id": "B:security_audit",
+   "option": "B",
+   "dim": "security_audit",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor B passed an independent security audit",
+   "neg_text": "Vendor B failed a recent security audit",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:finances": {
+   "fact_id": "B:finances",
+   "option": "B",
+   "dim": "finances",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor B is financially stable",
+   "neg_text": "Vendor B has reported financial difficulties",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:cost": {
+   "fact_id": "B:cost",
+   "option": "B",
+   "dim": "cost",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor B quoted a total cost of 338 thousand per year",
+   "neg_text": "Vendor B quoted a total cost of 611 thousand per year",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": 338,
+   "neg_value": 611
+  },
+  "B:clients": {
+   "fact_id": "B:clients",
+   "option": "B",
+   "dim": "clients",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Vendor B currently serves 6 hospital clients",
+   "neg_text": "Vendor B currently serves 41 hospital clients",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": 6,
+   "neg_value": 41
+  },
+  "C:training": {
+   "fact_id": "C:training",
+   "option": "C",
+   "dim": "training",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C provides on-site staff training",
+   "neg_text": "Vendor C provides no staff training",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:interop": {
+   "fact_id": "C:interop",
+   "option": "C",
+   "dim": "interop",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C uses a proprietary format only",
+   "neg_text": "Vendor C supports standard interoperability formats",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:support": {
+   "fact_id": "C:support",
+   "option": "C",
+   "dim": "support",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C offers support only during business hours",
+   "neg_text": "Vendor C offers 24/7 on-call support",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:backup": {
+   "fact_id": "C:backup",
+   "option": "C",
+   "dim": "backup",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor C performs encrypted off-site backups",
+   "neg_text": "Vendor C keeps backups only on-site",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:migration": {
+   "fact_id": "C:migration",
+   "option": "C",
+   "dim": "migration",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C charges extra for data migration",
+   "neg_text": "Vendor C includes free data migration",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:customisation": {
+   "fact_id": "C:customisation",
+   "option": "C",
+   "dim": "customisation",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor C allows no customisation",
+   "neg_text": "Vendor C allows workflow customisation",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:outages": {
+   "fact_id": "C:outages",
+   "option": "C",
+   "dim": "outages",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor C reported 1 major outages last year",
+   "neg_text": "Vendor C reported 7 major outages last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 7
+  },
+  "C:deploy_months": {
+   "fact_id": "C:deploy_months",
+   "option": "C",
+   "dim": "deploy_months",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Vendor C estimates deployment will take 12 months",
+   "neg_text": "Vendor C estimates deployment will take 4 months",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_4"
+   ],
+   "value": 12,
+   "neg_value": 4
+  },
+  "D:training": {
+   "fact_id": "D:training",
+   "option": "D",
+   "dim": "training",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D provides no staff training",
+   "neg_text": "Vendor D provides on-site staff training",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:exit": {
+   "fact_id": "D:exit",
+   "option": "D",
+   "dim": "exit",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Vendor D imposes heavy penalties for contract exit",
+   "neg_text": "Vendor D offers straightforward contract exit terms",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:customisation": {
+   "fact_id": "D:customisation",
+   "option": "D",
+   "dim": "customisation",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor D allows workflow customisation",
+   "neg_text": "Vendor D allows no customisation",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:migration": {
+   "fact_id": "D:migration",
+   "option": "D",
+   "dim": "migration",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor D includes free data migration",
+   "neg_text": "Vendor D charges extra for data migration",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:staff_turnover": {
+   "fact_id": "D:staff_turnover",
+   "option": "D",
+   "dim": "staff_turnover",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor D has a stable engineering team",
+   "neg_text": "Vendor D has high engineering staff turnover",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:support": {
+   "fact_id": "D:support",
+   "option": "D",
+   "dim": "support",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Vendor D offers 24/7 on-call support",
+   "neg_text": "Vendor D offers support only during business hours",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:deploy_months": {
+   "fact_id": "D:deploy_months",
+   "option": "D",
+   "dim": "deploy_months",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor D estimates deployment will take 3 months",
+   "neg_text": "Vendor D estimates deployment will take 13 months",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_0"
+   ],
+   "value": 3,
+   "neg_value": 13
+  },
+  "D:clients": {
+   "fact_id": "D:clients",
+   "option": "D",
+   "dim": "clients",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Vendor D currently serves 61 hospital clients",
+   "neg_text": "Vendor D currently serves 2 hospital clients",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": 61,
+   "neg_value": 2
+  }
+ },
+ "meta": {
+  "decoy": "B",
+  "names": {
+   "A": "Movok Taltho",
+   "B": "Mocasdra Fensan",
+   "C": "Lucas Neume",
+   "D": "Ozhesk Ozcasso"
+  },
+  "labels": {
+   "A": "Vendor A (Movok Taltho)",
+   "B": "Vendor B (Mocasdra Fensan)",
+   "C": "Vendor C (Lucas Neume)",
+   "D": "Vendor D (Ozhesk Ozcasso)"
+  },
+  "totals": {
+   "A": 2,
+   "B": 0,
+   "C": -2,
+   "D": 4
+  },
+  "shared_totals": {
+   "A": 3,
+   "B": 3,
+   "C": -1,
+   "D": -1
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1194
+ }
+}

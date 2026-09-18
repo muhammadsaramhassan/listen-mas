@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_vendor_catering_s1135",
+ "kind": "hidden_profile",
+ "world_id": "w1135",
+ "domain": "vendor_catering",
+ "description": "You are one of several event organisers choosing a caterer for a large conference. Each organiser has gathered different tasting notes, references, and logistics details.\n\nThe options are:\n- Caterer A (Tallynso Yernolva)\n- Caterer B (Nepolbel Vanol)\n- Caterer C (Quobreoz Ansmirmo)\n- Caterer D (Lurin Talwel)\n\nExactly one option is best overall. Which caterer should be booked? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A labels allergens clearly\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has glowing references from past events\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\n  - Caterer A needs 4 days of notice for changes\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B has catered events of this size before\n  - Caterer B uses single-use plastics\n  - Caterer B has a record of punctual delivery\n  - Caterer B offers flexible payment terms\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C has complaints from past events\n  - Caterer C has a top hygiene rating\n  - Caterer C does not label allergens\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year\n  - Caterer D needs 21 days of notice for changes",
+   "fact_ids": [
+    "A:allergens",
+    "A:equipment",
+    "A:references",
+    "A:hygiene",
+    "A:payment",
+    "A:lead_days",
+    "B:equipment",
+    "B:capacity",
+    "B:sustainability",
+    "B:punctual",
+    "B:payment",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:references",
+    "C:hygiene",
+    "C:allergens",
+    "C:complaints",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints",
+    "D:lead_days"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A received excellent tasting feedback\n  - Caterer A labels allergens clearly\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\n  - Caterer A quoted 42 per head\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C is slow to respond to enquiries\n  - Caterer C has a top hygiene rating\n  - Caterer C uses single-use plastics\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D responds quickly to enquiries\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year",
+   "fact_ids": [
+    "A:taste",
+    "A:allergens",
+    "A:equipment",
+    "A:hygiene",
+    "A:payment",
+    "A:price",
+    "B:equipment",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:communication",
+    "C:hygiene",
+    "C:sustainability",
+    "C:complaints",
+    "D:communication",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B is slow to respond to enquiries\n  - Caterer B has catered events of this size before\n  - Caterer B has a record of punctual delivery\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C is slow to respond to enquiries\n  - Caterer C has a top hygiene rating\n  - Caterer C does not label allergens\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D has a record of punctual delivery\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year\n  - Caterer D needs 21 days of notice for changes",
+   "fact_ids": [
+    "A:equipment",
+    "A:hygiene",
+    "A:payment",
+    "B:equipment",
+    "B:communication",
+    "B:capacity",
+    "B:punctual",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:communication",
+    "C:hygiene",
+    "C:allergens",
+    "C:complaints",
+    "D:punctual",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints",
+    "D:lead_days"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\n  - Caterer A quoted 42 per head\n  - Caterer A needs 4 days of notice for changes\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B is slow to respond to enquiries\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C has a top hygiene rating\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D responds quickly to enquiries\n  - Caterer D provides too few serving staff\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year",
+   "fact_ids": [
+    "A:equipment",
+    "A:hygiene",
+    "A:payment",
+    "A:price",
+    "A:lead_days",
+    "B:equipment",
+    "B:communication",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:hygiene",
+    "C:complaints",
+    "D:communication",
+    "D:staff",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B uses single-use plastics\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C has a top hygiene rating\n  - Caterer C needs 20 days of notice for changes\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D has complaints from past events\n  - Caterer D provides too few serving staff\n  - Caterer D has a record of punctual delivery\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year",
+   "fact_ids": [
+    "A:equipment",
+    "A:hygiene",
+    "A:payment",
+    "B:equipment",
+    "B:sustainability",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:hygiene",
+    "C:lead_days",
+    "C:complaints",
+    "D:references",
+    "D:staff",
+    "D:punctual",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Caterer A (Tallynso Yernolva):\n  - Caterer A received excellent tasting feedback\n  - Caterer A requires the venue to supply equipment\n  - Caterer A has glowing references from past events\n  - Caterer A has a recent hygiene violation\n  - Caterer A demands full payment upfront\nCaterer B (Nepolbel Vanol):\n  - Caterer B requires the venue to supply equipment\n  - Caterer B offers flexible payment terms\n  - Caterer B needs 4 days of notice for changes\n  - Caterer B quoted 94 per head\nCaterer C (Quobreoz Ansmirmo):\n  - Caterer C holds full liability insurance\n  - Caterer C has complaints from past events\n  - Caterer C has a top hygiene rating\n  - Caterer C uses single-use plastics\n  - Caterer C needs 20 days of notice for changes\n  - Caterer C received 0 formal complaints last year\nCaterer D (Lurin Talwel):\n  - Caterer D has complaints from past events\n  - Caterer D cannot handle several dietary requirements\n  - Caterer D uses single-use plastics\n  - Caterer D received 7 formal complaints last year",
+   "fact_ids": [
+    "A:taste",
+    "A:equipment",
+    "A:references",
+    "A:hygiene",
+    "A:payment",
+    "B:equipment",
+    "B:payment",
+    "B:lead_days",
+    "B:price",
+    "C:insurance",
+    "C:references",
+    "C:hygiene",
+    "C:sustainability",
+    "C:lead_days",
+    "C:complaints",
+    "D:references",
+    "D:dietary",
+    "D:sustainability",
+    "D:complaints"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "A",
+ "facts": {
+  "A:taste": {
+   "fact_id": "A:taste",
+   "option": "A",
+   "dim": "taste",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer A received excellent tasting feedback",
+   "neg_text": "Caterer A received poor tasting feedback",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:allergens": {
+   "fact_id": "A:allergens",
+   "option": "A",
+   "dim": "allergens",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer A labels allergens clearly",
+   "neg_text": "Caterer A does not label allergens",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:equipment": {
+   "fact_id": "A:equipment",
+   "option": "A",
+   "dim": "equipment",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer A requires the venue to supply equipment",
+   "neg_text": "Caterer A brings its own serving equipment",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:references": {
+   "fact_id": "A:references",
+   "option": "A",
+   "dim": "references",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer A has glowing references from past events",
+   "neg_text": "Caterer A has complaints from past events",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:hygiene": {
+   "fact_id": "A:hygiene",
+   "option": "A",
+   "dim": "hygiene",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer A has a recent hygiene violation",
+   "neg_text": "Caterer A has a top hygiene rating",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:payment": {
+   "fact_id": "A:payment",
+   "option": "A",
+   "dim": "payment",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer A demands full payment upfront",
+   "neg_text": "Caterer A offers flexible payment terms",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:price": {
+   "fact_id": "A:price",
+   "option": "A",
+   "dim": "price",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Caterer A quoted 42 per head",
+   "neg_text": "Caterer A quoted 74 per head",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_1"
+   ],
+   "value": 42,
+   "neg_value": 74
+  },
+  "A:lead_days": {
+   "fact_id": "A:lead_days",
+   "option": "A",
+   "dim": "lead_days",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Caterer A needs 4 days of notice for changes",
+   "neg_text": "Caterer A needs 18 days of notice for changes",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_0"
+   ],
+   "value": 4,
+   "neg_value": 18
+  },
+  "B:equipment": {
+   "fact_id": "B:equipment",
+   "option": "B",
+   "dim": "equipment",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer B requires the venue to supply equipment",
+   "neg_text": "Caterer B brings its own serving equipment",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:communication": {
+   "fact_id": "B:communication",
+   "option": "B",
+   "dim": "communication",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer B is slow to respond to enquiries",
+   "neg_text": "Caterer B responds quickly to enquiries",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:capacity": {
+   "fact_id": "B:capacity",
+   "option": "B",
+   "dim": "capacity",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer B has catered events of this size before",
+   "neg_text": "Caterer B has never catered an event this large",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:sustainability": {
+   "fact_id": "B:sustainability",
+   "option": "B",
+   "dim": "sustainability",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer B uses single-use plastics",
+   "neg_text": "Caterer B uses compostable packaging",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:punctual": {
+   "fact_id": "B:punctual",
+   "option": "B",
+   "dim": "punctual",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer B has a record of punctual delivery",
+   "neg_text": "Caterer B has a record of late delivery",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:payment": {
+   "fact_id": "B:payment",
+   "option": "B",
+   "dim": "payment",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer B offers flexible payment terms",
+   "neg_text": "Caterer B demands full payment upfront",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:lead_days": {
+   "fact_id": "B:lead_days",
+   "option": "B",
+   "dim": "lead_days",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Caterer B needs 4 days of notice for changes",
+   "neg_text": "Caterer B needs 21 days of notice for changes",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 4,
+   "neg_value": 21
+  },
+  "B:price": {
+   "fact_id": "B:price",
+   "option": "B",
+   "dim": "price",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Caterer B quoted 94 per head",
+   "neg_text": "Caterer B quoted 40 per head",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 94,
+   "neg_value": 40
+  },
+  "C:insurance": {
+   "fact_id": "C:insurance",
+   "option": "C",
+   "dim": "insurance",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer C holds full liability insurance",
+   "neg_text": "Caterer C holds no liability insurance",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:references": {
+   "fact_id": "C:references",
+   "option": "C",
+   "dim": "references",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer C has complaints from past events",
+   "neg_text": "Caterer C has glowing references from past events",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:communication": {
+   "fact_id": "C:communication",
+   "option": "C",
+   "dim": "communication",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer C is slow to respond to enquiries",
+   "neg_text": "Caterer C responds quickly to enquiries",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:hygiene": {
+   "fact_id": "C:hygiene",
+   "option": "C",
+   "dim": "hygiene",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer C has a top hygiene rating",
+   "neg_text": "Caterer C has a recent hygiene violation",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:sustainability": {
+   "fact_id": "C:sustainability",
+   "option": "C",
+   "dim": "sustainability",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer C uses single-use plastics",
+   "neg_text": "Caterer C uses compostable packaging",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:allergens": {
+   "fact_id": "C:allergens",
+   "option": "C",
+   "dim": "allergens",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer C does not label allergens",
+   "neg_text": "Caterer C labels allergens clearly",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:lead_days": {
+   "fact_id": "C:lead_days",
+   "option": "C",
+   "dim": "lead_days",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Caterer C needs 20 days of notice for changes",
+   "neg_text": "Caterer C needs 3 days of notice for changes",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 20,
+   "neg_value": 3
+  },
+  "C:complaints": {
+   "fact_id": "C:complaints",
+   "option": "C",
+   "dim": "complaints",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Caterer C received 0 formal complaints last year",
+   "neg_text": "Caterer C received 8 formal complaints last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 0,
+   "neg_value": 8
+  },
+  "D:references": {
+   "fact_id": "D:references",
+   "option": "D",
+   "dim": "references",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer D has complaints from past events",
+   "neg_text": "Caterer D has glowing references from past events",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:communication": {
+   "fact_id": "D:communication",
+   "option": "D",
+   "dim": "communication",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer D responds quickly to enquiries",
+   "neg_text": "Caterer D is slow to respond to enquiries",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:staff": {
+   "fact_id": "D:staff",
+   "option": "D",
+   "dim": "staff",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer D provides too few serving staff",
+   "neg_text": "Caterer D provides enough serving staff",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:punctual": {
+   "fact_id": "D:punctual",
+   "option": "D",
+   "dim": "punctual",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Caterer D has a record of punctual delivery",
+   "neg_text": "Caterer D has a record of late delivery",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:dietary": {
+   "fact_id": "D:dietary",
+   "option": "D",
+   "dim": "dietary",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer D cannot handle several dietary requirements",
+   "neg_text": "Caterer D handles all dietary requirements",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:sustainability": {
+   "fact_id": "D:sustainability",
+   "option": "D",
+   "dim": "sustainability",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Caterer D uses single-use plastics",
+   "neg_text": "Caterer D uses compostable packaging",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:complaints": {
+   "fact_id": "D:complaints",
+   "option": "D",
+   "dim": "complaints",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Caterer D received 7 formal complaints last year",
+   "neg_text": "Caterer D received 0 formal complaints last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 7,
+   "neg_value": 0
+  },
+  "D:lead_days": {
+   "fact_id": "D:lead_days",
+   "option": "D",
+   "dim": "lead_days",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Caterer D needs 21 days of notice for changes",
+   "neg_text": "Caterer D needs 2 days of notice for changes",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": 21,
+   "neg_value": 2
+  }
+ },
+ "meta": {
+  "decoy": "C",
+  "names": {
+   "A": "Tallynso Yernolva",
+   "B": "Nepolbel Vanol",
+   "C": "Quobreoz Ansmirmo",
+   "D": "Lurin Talwel"
+  },
+  "labels": {
+   "A": "Caterer A (Tallynso Yernolva)",
+   "B": "Caterer B (Nepolbel Vanol)",
+   "C": "Caterer C (Quobreoz Ansmirmo)",
+   "D": "Caterer D (Lurin Talwel)"
+  },
+  "totals": {
+   "A": 2,
+   "B": 0,
+   "C": -2,
+   "D": -4
+  },
+  "shared_totals": {
+   "A": -3,
+   "B": -1,
+   "C": 3,
+   "D": -3
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1135
+ }
+}

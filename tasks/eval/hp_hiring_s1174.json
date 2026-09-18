@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_hiring_s1174",
+ "kind": "hidden_profile",
+ "world_id": "w1174",
+ "domain": "hiring",
+ "description": "You are one of several personnel managers at an airline deciding which candidate to hire as a long-haul pilot. Each manager has read different interview notes and reference letters.\n\nThe options are:\n- Candidate A (Fenbredra Sopol)\n- Candidate B (Vanolquo Dratiroz)\n- Candidate C (Lucas Nesan)\n- Candidate D (Drapol Belgarne)\n\nExactly one option is best overall. Which candidate should be hired? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\n  - Candidate A has been involved in 4 safety incidents\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B takes responsibility seriously\n  - Candidate B makes correct decisions quickly\n  - Candidate B can be uncooperative with crew\n  - Candidate B can be disorganised\nCandidate C (Lucas Nesan):\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C is good at assessing weather conditions\n  - Candidate C is not good at taking criticism\nCandidate D (Drapol Belgarne):\n  - Candidate D is not good at taking criticism\n  - Candidate D is cooperative with crew\n  - Candidate D tends to shift responsibility to others\n  - Candidate D is highly organised\n  - Candidate D can be grumpy and short-tempered\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:communication",
+    "A:weather",
+    "A:incidents",
+    "B:calm",
+    "B:reliability",
+    "B:responsibility",
+    "B:decisions",
+    "B:teamwork",
+    "B:organised",
+    "C:leadership",
+    "C:attention",
+    "C:weather",
+    "C:criticism",
+    "D:criticism",
+    "D:teamwork",
+    "D:responsibility",
+    "D:organised",
+    "D:temper",
+    "D:late_reports"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A keeps calm in a crisis\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\n  - Candidate A has been involved in 4 safety incidents\n  - Candidate A scored 66 out of 100 on the simulator assessment\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B makes correct decisions quickly\n  - Candidate B can be disorganised\nCandidate C (Lucas Nesan):\n  - Candidate C is eager to pursue further training\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C communicates ideas clearly\n  - Candidate C is not good at taking criticism\nCandidate D (Drapol Belgarne):\n  - Candidate D is cooperative with crew\n  - Candidate D tends to shift responsibility to others\n  - Candidate D is highly organised\n  - Candidate D has been involved in 7 safety incidents\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:calm",
+    "A:communication",
+    "A:weather",
+    "A:incidents",
+    "A:sim_score",
+    "B:calm",
+    "B:reliability",
+    "B:decisions",
+    "B:organised",
+    "C:training",
+    "C:leadership",
+    "C:attention",
+    "C:communication",
+    "C:criticism",
+    "D:teamwork",
+    "D:responsibility",
+    "D:organised",
+    "D:incidents",
+    "D:late_reports"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\n  - Candidate A scored 66 out of 100 on the simulator assessment\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B can be disorganised\n  - Candidate B filed 2 late post-flight reports last year\n  - Candidate B has logged 1747 flight hours\nCandidate C (Lucas Nesan):\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C is not good at taking criticism\nCandidate D (Drapol Belgarne):\n  - Candidate D is not good at taking criticism\n  - Candidate D is cooperative with crew\n  - Candidate D is highly organised\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:communication",
+    "A:weather",
+    "A:sim_score",
+    "B:calm",
+    "B:reliability",
+    "B:organised",
+    "B:late_reports",
+    "B:flight_hours",
+    "C:leadership",
+    "C:attention",
+    "C:criticism",
+    "D:criticism",
+    "D:teamwork",
+    "D:organised",
+    "D:late_reports"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A can be disorganised\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B takes responsibility seriously\n  - Candidate B can be disorganised\n  - Candidate B filed 2 late post-flight reports last year\nCandidate C (Lucas Nesan):\n  - Candidate C is eager to pursue further training\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C communicates ideas clearly\n  - Candidate C is not good at taking criticism\nCandidate D (Drapol Belgarne):\n  - Candidate D is cooperative with crew\n  - Candidate D handles stress poorly\n  - Candidate D is highly organised\n  - Candidate D has been involved in 7 safety incidents\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:organised",
+    "A:communication",
+    "A:weather",
+    "B:calm",
+    "B:reliability",
+    "B:responsibility",
+    "B:organised",
+    "B:late_reports",
+    "C:training",
+    "C:leadership",
+    "C:attention",
+    "C:communication",
+    "C:criticism",
+    "D:teamwork",
+    "D:stress",
+    "D:organised",
+    "D:incidents",
+    "D:late_reports"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A can be disorganised\n  - Candidate A tends to shift responsibility to others\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B can be uncooperative with crew\n  - Candidate B can be disorganised\nCandidate C (Lucas Nesan):\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C is good at assessing weather conditions\n  - Candidate C is not good at taking criticism\n  - Candidate C scored 89 out of 100 on the simulator assessment\n  - Candidate C has logged 5935 flight hours\nCandidate D (Drapol Belgarne):\n  - Candidate D is cooperative with crew\n  - Candidate D handles stress poorly\n  - Candidate D is highly organised\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:organised",
+    "A:responsibility",
+    "A:communication",
+    "A:weather",
+    "B:calm",
+    "B:reliability",
+    "B:teamwork",
+    "B:organised",
+    "C:leadership",
+    "C:attention",
+    "C:weather",
+    "C:criticism",
+    "C:sim_score",
+    "C:flight_hours",
+    "D:teamwork",
+    "D:stress",
+    "D:organised",
+    "D:late_reports"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Candidate A (Fenbredra Sopol):\n  - Candidate A is cooperative with crew\n  - Candidate A tends to shift responsibility to others\n  - Candidate A keeps calm in a crisis\n  - Candidate A has difficulty communicating ideas\n  - Candidate A is poor at assessing weather conditions\nCandidate B (Vanolquo Dratiroz):\n  - Candidate B becomes flustered in a crisis\n  - Candidate B is known to be unreliable\n  - Candidate B can be disorganised\n  - Candidate B has logged 1747 flight hours\nCandidate C (Lucas Nesan):\n  - Candidate C has weak leadership qualities\n  - Candidate C is easily distracted\n  - Candidate C is not good at taking criticism\n  - Candidate C scored 89 out of 100 on the simulator assessment\n  - Candidate C has logged 5935 flight hours\nCandidate D (Drapol Belgarne):\n  - Candidate D is cooperative with crew\n  - Candidate D is highly organised\n  - Candidate D can be grumpy and short-tempered\n  - Candidate D filed 1 late post-flight reports last year",
+   "fact_ids": [
+    "A:teamwork",
+    "A:responsibility",
+    "A:calm",
+    "A:communication",
+    "A:weather",
+    "B:calm",
+    "B:reliability",
+    "B:organised",
+    "B:flight_hours",
+    "C:leadership",
+    "C:attention",
+    "C:criticism",
+    "C:sim_score",
+    "C:flight_hours",
+    "D:teamwork",
+    "D:organised",
+    "D:temper",
+    "D:late_reports"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "C",
+ "facts": {
+  "A:teamwork": {
+   "fact_id": "A:teamwork",
+   "option": "A",
+   "dim": "teamwork",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate A is cooperative with crew",
+   "neg_text": "Candidate A can be uncooperative with crew",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:organised": {
+   "fact_id": "A:organised",
+   "option": "A",
+   "dim": "organised",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate A can be disorganised",
+   "neg_text": "Candidate A is highly organised",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:responsibility": {
+   "fact_id": "A:responsibility",
+   "option": "A",
+   "dim": "responsibility",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate A tends to shift responsibility to others",
+   "neg_text": "Candidate A takes responsibility seriously",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:calm": {
+   "fact_id": "A:calm",
+   "option": "A",
+   "dim": "calm",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate A keeps calm in a crisis",
+   "neg_text": "Candidate A becomes flustered in a crisis",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:communication": {
+   "fact_id": "A:communication",
+   "option": "A",
+   "dim": "communication",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate A has difficulty communicating ideas",
+   "neg_text": "Candidate A communicates ideas clearly",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:weather": {
+   "fact_id": "A:weather",
+   "option": "A",
+   "dim": "weather",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate A is poor at assessing weather conditions",
+   "neg_text": "Candidate A is good at assessing weather conditions",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:incidents": {
+   "fact_id": "A:incidents",
+   "option": "A",
+   "dim": "incidents",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Candidate A has been involved in 4 safety incidents",
+   "neg_text": "Candidate A has been involved in 1 safety incidents",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": 4,
+   "neg_value": 1
+  },
+  "A:sim_score": {
+   "fact_id": "A:sim_score",
+   "option": "A",
+   "dim": "sim_score",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Candidate A scored 66 out of 100 on the simulator assessment",
+   "neg_text": "Candidate A scored 91 out of 100 on the simulator assessment",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": 66,
+   "neg_value": 91
+  },
+  "B:calm": {
+   "fact_id": "B:calm",
+   "option": "B",
+   "dim": "calm",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate B becomes flustered in a crisis",
+   "neg_text": "Candidate B keeps calm in a crisis",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:reliability": {
+   "fact_id": "B:reliability",
+   "option": "B",
+   "dim": "reliability",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate B is known to be unreliable",
+   "neg_text": "Candidate B is known to be very reliable",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:responsibility": {
+   "fact_id": "B:responsibility",
+   "option": "B",
+   "dim": "responsibility",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate B takes responsibility seriously",
+   "neg_text": "Candidate B tends to shift responsibility to others",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:decisions": {
+   "fact_id": "B:decisions",
+   "option": "B",
+   "dim": "decisions",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate B makes correct decisions quickly",
+   "neg_text": "Candidate B is slow to make decisions",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:teamwork": {
+   "fact_id": "B:teamwork",
+   "option": "B",
+   "dim": "teamwork",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate B can be uncooperative with crew",
+   "neg_text": "Candidate B is cooperative with crew",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:organised": {
+   "fact_id": "B:organised",
+   "option": "B",
+   "dim": "organised",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate B can be disorganised",
+   "neg_text": "Candidate B is highly organised",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:late_reports": {
+   "fact_id": "B:late_reports",
+   "option": "B",
+   "dim": "late_reports",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Candidate B filed 2 late post-flight reports last year",
+   "neg_text": "Candidate B filed 10 late post-flight reports last year",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_2"
+   ],
+   "value": 2,
+   "neg_value": 10
+  },
+  "B:flight_hours": {
+   "fact_id": "B:flight_hours",
+   "option": "B",
+   "dim": "flight_hours",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Candidate B has logged 1747 flight hours",
+   "neg_text": "Candidate B has logged 5653 flight hours",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_5"
+   ],
+   "value": 1747,
+   "neg_value": 5653
+  },
+  "C:training": {
+   "fact_id": "C:training",
+   "option": "C",
+   "dim": "training",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate C is eager to pursue further training",
+   "neg_text": "Candidate C is unwilling to pursue further training",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:leadership": {
+   "fact_id": "C:leadership",
+   "option": "C",
+   "dim": "leadership",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate C has weak leadership qualities",
+   "neg_text": "Candidate C has very good leadership qualities",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:attention": {
+   "fact_id": "C:attention",
+   "option": "C",
+   "dim": "attention",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate C is easily distracted",
+   "neg_text": "Candidate C concentrates very well",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:communication": {
+   "fact_id": "C:communication",
+   "option": "C",
+   "dim": "communication",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate C communicates ideas clearly",
+   "neg_text": "Candidate C has difficulty communicating ideas",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:weather": {
+   "fact_id": "C:weather",
+   "option": "C",
+   "dim": "weather",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate C is good at assessing weather conditions",
+   "neg_text": "Candidate C is poor at assessing weather conditions",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:criticism": {
+   "fact_id": "C:criticism",
+   "option": "C",
+   "dim": "criticism",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate C is not good at taking criticism",
+   "neg_text": "Candidate C takes criticism well",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:sim_score": {
+   "fact_id": "C:sim_score",
+   "option": "C",
+   "dim": "sim_score",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Candidate C scored 89 out of 100 on the simulator assessment",
+   "neg_text": "Candidate C scored 61 out of 100 on the simulator assessment",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_4"
+   ],
+   "value": 89,
+   "neg_value": 61
+  },
+  "C:flight_hours": {
+   "fact_id": "C:flight_hours",
+   "option": "C",
+   "dim": "flight_hours",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Candidate C has logged 5935 flight hours",
+   "neg_text": "Candidate C has logged 2387 flight hours",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_4"
+   ],
+   "value": 5935,
+   "neg_value": 2387
+  },
+  "D:criticism": {
+   "fact_id": "D:criticism",
+   "option": "D",
+   "dim": "criticism",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate D is not good at taking criticism",
+   "neg_text": "Candidate D takes criticism well",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:teamwork": {
+   "fact_id": "D:teamwork",
+   "option": "D",
+   "dim": "teamwork",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate D is cooperative with crew",
+   "neg_text": "Candidate D can be uncooperative with crew",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:stress": {
+   "fact_id": "D:stress",
+   "option": "D",
+   "dim": "stress",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate D handles stress poorly",
+   "neg_text": "Candidate D handles stress very well",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:responsibility": {
+   "fact_id": "D:responsibility",
+   "option": "D",
+   "dim": "responsibility",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate D tends to shift responsibility to others",
+   "neg_text": "Candidate D takes responsibility seriously",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:organised": {
+   "fact_id": "D:organised",
+   "option": "D",
+   "dim": "organised",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Candidate D is highly organised",
+   "neg_text": "Candidate D can be disorganised",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:temper": {
+   "fact_id": "D:temper",
+   "option": "D",
+   "dim": "temper",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Candidate D can be grumpy and short-tempered",
+   "neg_text": "Candidate D is even-tempered",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:incidents": {
+   "fact_id": "D:incidents",
+   "option": "D",
+   "dim": "incidents",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Candidate D has been involved in 7 safety incidents",
+   "neg_text": "Candidate D has been involved in 0 safety incidents",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": 7,
+   "neg_value": 0
+  },
+  "D:late_reports": {
+   "fact_id": "D:late_reports",
+   "option": "D",
+   "dim": "late_reports",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Candidate D filed 1 late post-flight reports last year",
+   "neg_text": "Candidate D filed 9 late post-flight reports last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 9
+  }
+ },
+ "meta": {
+  "decoy": "D",
+  "names": {
+   "A": "Fenbredra Sopol",
+   "B": "Vanolquo Dratiroz",
+   "C": "Lucas Nesan",
+   "D": "Drapol Belgarne"
+  },
+  "labels": {
+   "A": "Candidate A (Fenbredra Sopol)",
+   "B": "Candidate B (Vanolquo Dratiroz)",
+   "C": "Candidate C (Lucas Nesan)",
+   "D": "Candidate D (Drapol Belgarne)"
+  },
+  "totals": {
+   "A": -4,
+   "B": -2,
+   "C": 2,
+   "D": -2
+  },
+  "shared_totals": {
+   "A": -1,
+   "B": -3,
+   "C": -3,
+   "D": 3
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1174
+ }
+}

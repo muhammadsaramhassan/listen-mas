@@ -1,0 +1,758 @@
+{
+ "task_id": "hp_site_selection_s1127",
+ "kind": "hidden_profile",
+ "world_id": "w1127",
+ "domain": "site_selection",
+ "description": "You are one of several planners at a logistics company choosing where to build a new regional warehouse. Each planner has surveyed different aspects of the candidate sites.\n\nThe options are:\n- Site A (Dramir Belcas)\n- Site B (Vapol Yerrin)\n- Site C (Netirlu Fenume)\n- Site D (Draume Beltirdra)\n\nExactly one option is best overall. Which site should be chosen? Your notes are incomplete: other participants hold information you do not have.",
+ "agents": [
+  {
+   "agent_id": "agent_0",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has unstable soil requiring piling\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B has a clean environmental report\n  - Site B is already zoned for industrial use\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has a very small local labour pool\n  - Site C has adequate water supply\n  - Site C saw 1 weather-related road closures last year\n  - Site C offers 103 thousand square metres\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has no fibre broadband available\n  - Site D has direct highway access\n  - Site D qualifies for a tax incentive\n  - Site D lies within a flood zone",
+   "fact_ids": [
+    "A:soil",
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "B:broadband",
+    "B:contamination",
+    "B:zoning",
+    "B:neighbours",
+    "B:closures",
+    "C:zoning",
+    "C:labour",
+    "C:water",
+    "C:closures",
+    "C:area",
+    "D:airport",
+    "D:broadband",
+    "D:highway",
+    "D:tax",
+    "D:flood"
+   ]
+  },
+  {
+   "agent_id": "agent_1",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has no direct highway access\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B has direct highway access\n  - Site B is in a low-crime area\n  - Site B is already zoned for industrial use\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\n  - Site B is priced at 223 per square metre\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has a very small local labour pool\n  - Site C has adequate water supply\n  - Site C is close to a cargo airport\n  - Site C saw 1 weather-related road closures last year\n  - Site C offers 103 thousand square metres\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has a slow permitting history\n  - Site D has direct highway access\n  - Site D qualifies for a tax incentive\n  - Site D lies within a flood zone\n  - Site D offers 87 thousand square metres",
+   "fact_ids": [
+    "A:highway",
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "B:broadband",
+    "B:highway",
+    "B:security",
+    "B:zoning",
+    "B:neighbours",
+    "B:closures",
+    "B:price",
+    "C:zoning",
+    "C:labour",
+    "C:water",
+    "C:airport",
+    "C:closures",
+    "C:area",
+    "D:airport",
+    "D:permits",
+    "D:highway",
+    "D:tax",
+    "D:flood",
+    "D:area"
+   ]
+  },
+  {
+   "agent_id": "agent_2",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has no direct highway access\n  - Site A has unstable soil requiring piling\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\n  - Site A has restricted water supply\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B has direct highway access\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has adequate water supply\n  - Site C saw 1 weather-related road closures last year\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has no fibre broadband available\n  - Site D has direct highway access\n  - Site D lies within a flood zone",
+   "fact_ids": [
+    "A:highway",
+    "A:soil",
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "A:water",
+    "B:broadband",
+    "B:highway",
+    "B:neighbours",
+    "B:closures",
+    "C:zoning",
+    "C:water",
+    "C:closures",
+    "D:airport",
+    "D:broadband",
+    "D:highway",
+    "D:flood"
+   ]
+  },
+  {
+   "agent_id": "agent_3",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\n  - Site A has restricted water supply\n  - Site A is priced at 204 per square metre\n  - Site A is 17 minutes from the nearest city centre\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B is in a low-crime area\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\n  - Site B is priced at 223 per square metre\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has adequate water supply\n  - Site C has insufficient grid capacity\n  - Site C has no room for expansion\n  - Site C saw 1 weather-related road closures last year\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has direct highway access\n  - Site D lies within a flood zone\n  - Site D is priced at 427 per square metre",
+   "fact_ids": [
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "A:water",
+    "A:price",
+    "A:commute",
+    "B:broadband",
+    "B:security",
+    "B:neighbours",
+    "B:closures",
+    "B:price",
+    "C:zoning",
+    "C:water",
+    "C:power",
+    "C:expansion",
+    "C:closures",
+    "D:airport",
+    "D:highway",
+    "D:flood",
+    "D:price"
+   ]
+  },
+  {
+   "agent_id": "agent_4",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\n  - Site A is priced at 204 per square metre\n  - Site A is 17 minutes from the nearest city centre\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B has a clean environmental report\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has adequate water supply\n  - Site C saw 1 weather-related road closures last year\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has direct highway access\n  - Site D lies within a flood zone\n  - Site D offers 87 thousand square metres\n  - Site D is priced at 427 per square metre",
+   "fact_ids": [
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "A:price",
+    "A:commute",
+    "B:broadband",
+    "B:contamination",
+    "B:neighbours",
+    "B:closures",
+    "C:zoning",
+    "C:water",
+    "C:closures",
+    "D:airport",
+    "D:highway",
+    "D:flood",
+    "D:area",
+    "D:price"
+   ]
+  },
+  {
+   "agent_id": "agent_5",
+   "shard_text": "Site A (Dramir Belcas):\n  - Site A has fibre broadband available\n  - Site A has supportive neighbouring businesses\n  - Site A is outside the flood zone\nSite B (Vapol Yerrin):\n  - Site B has fibre broadband available\n  - Site B faces organised local opposition\n  - Site B saw 6 weather-related road closures last year\nSite C (Netirlu Fenume):\n  - Site C is already zoned for industrial use\n  - Site C has adequate water supply\n  - Site C is close to a cargo airport\n  - Site C has insufficient grid capacity\n  - Site C has no room for expansion\n  - Site C saw 1 weather-related road closures last year\nSite D (Draume Beltirdra):\n  - Site D is close to a cargo airport\n  - Site D has a slow permitting history\n  - Site D has direct highway access\n  - Site D lies within a flood zone",
+   "fact_ids": [
+    "A:broadband",
+    "A:neighbours",
+    "A:flood",
+    "B:broadband",
+    "B:neighbours",
+    "B:closures",
+    "C:zoning",
+    "C:water",
+    "C:airport",
+    "C:power",
+    "C:expansion",
+    "C:closures",
+    "D:airport",
+    "D:permits",
+    "D:highway",
+    "D:flood"
+   ]
+  }
+ ],
+ "possible_answers": [
+  "A",
+  "B",
+  "C",
+  "D"
+ ],
+ "correct_answer": "B",
+ "facts": {
+  "A:highway": {
+   "fact_id": "A:highway",
+   "option": "A",
+   "dim": "highway",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site A has no direct highway access",
+   "neg_text": "Site A has direct highway access",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:soil": {
+   "fact_id": "A:soil",
+   "option": "A",
+   "dim": "soil",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site A has unstable soil requiring piling",
+   "neg_text": "Site A has stable soil for heavy foundations",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:broadband": {
+   "fact_id": "A:broadband",
+   "option": "A",
+   "dim": "broadband",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A has fibre broadband available",
+   "neg_text": "Site A has no fibre broadband available",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:neighbours": {
+   "fact_id": "A:neighbours",
+   "option": "A",
+   "dim": "neighbours",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A has supportive neighbouring businesses",
+   "neg_text": "Site A faces organised local opposition",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:flood": {
+   "fact_id": "A:flood",
+   "option": "A",
+   "dim": "flood",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site A is outside the flood zone",
+   "neg_text": "Site A lies within a flood zone",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:water": {
+   "fact_id": "A:water",
+   "option": "A",
+   "dim": "water",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site A has restricted water supply",
+   "neg_text": "Site A has adequate water supply",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "A:price": {
+   "fact_id": "A:price",
+   "option": "A",
+   "dim": "price",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site A is priced at 204 per square metre",
+   "neg_text": "Site A is priced at 508 per square metre",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": 204,
+   "neg_value": 508
+  },
+  "A:commute": {
+   "fact_id": "A:commute",
+   "option": "A",
+   "dim": "commute",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site A is 17 minutes from the nearest city centre",
+   "neg_text": "Site A is 80 minutes from the nearest city centre",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_4"
+   ],
+   "value": 17,
+   "neg_value": 80
+  },
+  "B:broadband": {
+   "fact_id": "B:broadband",
+   "option": "B",
+   "dim": "broadband",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B has fibre broadband available",
+   "neg_text": "Site B has no fibre broadband available",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:contamination": {
+   "fact_id": "B:contamination",
+   "option": "B",
+   "dim": "contamination",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B has a clean environmental report",
+   "neg_text": "Site B has a contamination finding on record",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:highway": {
+   "fact_id": "B:highway",
+   "option": "B",
+   "dim": "highway",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B has direct highway access",
+   "neg_text": "Site B has no direct highway access",
+   "shared": false,
+   "holders": [
+    "agent_2",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:security": {
+   "fact_id": "B:security",
+   "option": "B",
+   "dim": "security",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B is in a low-crime area",
+   "neg_text": "Site B is in a high-crime area",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:zoning": {
+   "fact_id": "B:zoning",
+   "option": "B",
+   "dim": "zoning",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site B is already zoned for industrial use",
+   "neg_text": "Site B would require a zoning change",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_0"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:neighbours": {
+   "fact_id": "B:neighbours",
+   "option": "B",
+   "dim": "neighbours",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site B faces organised local opposition",
+   "neg_text": "Site B has supportive neighbouring businesses",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "B:closures": {
+   "fact_id": "B:closures",
+   "option": "B",
+   "dim": "closures",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Site B saw 6 weather-related road closures last year",
+   "neg_text": "Site B saw 0 weather-related road closures last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 6,
+   "neg_value": 0
+  },
+  "B:price": {
+   "fact_id": "B:price",
+   "option": "B",
+   "dim": "price",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site B is priced at 223 per square metre",
+   "neg_text": "Site B is priced at 426 per square metre",
+   "shared": false,
+   "holders": [
+    "agent_1",
+    "agent_3"
+   ],
+   "value": 223,
+   "neg_value": 426
+  },
+  "C:zoning": {
+   "fact_id": "C:zoning",
+   "option": "C",
+   "dim": "zoning",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site C is already zoned for industrial use",
+   "neg_text": "Site C would require a zoning change",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:labour": {
+   "fact_id": "C:labour",
+   "option": "C",
+   "dim": "labour",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has a very small local labour pool",
+   "neg_text": "Site C has a large local labour pool",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:water": {
+   "fact_id": "C:water",
+   "option": "C",
+   "dim": "water",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site C has adequate water supply",
+   "neg_text": "Site C has restricted water supply",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:airport": {
+   "fact_id": "C:airport",
+   "option": "C",
+   "dim": "airport",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site C is close to a cargo airport",
+   "neg_text": "Site C is far from any cargo airport",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:power": {
+   "fact_id": "C:power",
+   "option": "C",
+   "dim": "power",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has insufficient grid capacity",
+   "neg_text": "Site C has sufficient grid capacity",
+   "shared": false,
+   "holders": [
+    "agent_3",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:expansion": {
+   "fact_id": "C:expansion",
+   "option": "C",
+   "dim": "expansion",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site C has no room for expansion",
+   "neg_text": "Site C has room for future expansion",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_3"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "C:closures": {
+   "fact_id": "C:closures",
+   "option": "C",
+   "dim": "closures",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site C saw 1 weather-related road closures last year",
+   "neg_text": "Site C saw 9 weather-related road closures last year",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": 1,
+   "neg_value": 9
+  },
+  "C:area": {
+   "fact_id": "C:area",
+   "option": "C",
+   "dim": "area",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site C offers 103 thousand square metres",
+   "neg_text": "Site C offers 33 thousand square metres",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": 103,
+   "neg_value": 33
+  },
+  "D:airport": {
+   "fact_id": "D:airport",
+   "option": "D",
+   "dim": "airport",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D is close to a cargo airport",
+   "neg_text": "Site D is far from any cargo airport",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:broadband": {
+   "fact_id": "D:broadband",
+   "option": "D",
+   "dim": "broadband",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D has no fibre broadband available",
+   "neg_text": "Site D has fibre broadband available",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_2"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:permits": {
+   "fact_id": "D:permits",
+   "option": "D",
+   "dim": "permits",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D has a slow permitting history",
+   "neg_text": "Site D has permits that can be fast-tracked",
+   "shared": false,
+   "holders": [
+    "agent_5",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:highway": {
+   "fact_id": "D:highway",
+   "option": "D",
+   "dim": "highway",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D has direct highway access",
+   "neg_text": "Site D has no direct highway access",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:tax": {
+   "fact_id": "D:tax",
+   "option": "D",
+   "dim": "tax",
+   "valence": 1,
+   "kind": "binary",
+   "text": "Site D qualifies for a tax incentive",
+   "neg_text": "Site D does not qualify for any tax incentive",
+   "shared": false,
+   "holders": [
+    "agent_0",
+    "agent_1"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:flood": {
+   "fact_id": "D:flood",
+   "option": "D",
+   "dim": "flood",
+   "valence": -1,
+   "kind": "binary",
+   "text": "Site D lies within a flood zone",
+   "neg_text": "Site D is outside the flood zone",
+   "shared": true,
+   "holders": [
+    "agent_0",
+    "agent_1",
+    "agent_2",
+    "agent_3",
+    "agent_4",
+    "agent_5"
+   ],
+   "value": null,
+   "neg_value": null
+  },
+  "D:area": {
+   "fact_id": "D:area",
+   "option": "D",
+   "dim": "area",
+   "valence": 1,
+   "kind": "numeric",
+   "text": "Site D offers 87 thousand square metres",
+   "neg_text": "Site D offers 33 thousand square metres",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_1"
+   ],
+   "value": 87,
+   "neg_value": 33
+  },
+  "D:price": {
+   "fact_id": "D:price",
+   "option": "D",
+   "dim": "price",
+   "valence": -1,
+   "kind": "numeric",
+   "text": "Site D is priced at 427 per square metre",
+   "neg_text": "Site D is priced at 194 per square metre",
+   "shared": false,
+   "holders": [
+    "agent_4",
+    "agent_3"
+   ],
+   "value": 427,
+   "neg_value": 194
+  }
+ },
+ "meta": {
+  "decoy": "A",
+  "names": {
+   "A": "Dramir Belcas",
+   "B": "Vapol Yerrin",
+   "C": "Netirlu Fenume",
+   "D": "Draume Beltirdra"
+  },
+  "labels": {
+   "A": "Site A (Dramir Belcas)",
+   "B": "Site B (Vapol Yerrin)",
+   "C": "Site C (Netirlu Fenume)",
+   "D": "Site D (Draume Beltirdra)"
+  },
+  "totals": {
+   "A": 2,
+   "B": 4,
+   "C": 2,
+   "D": 0
+  },
+  "shared_totals": {
+   "A": 3,
+   "B": -1,
+   "C": 3,
+   "D": 1
+  },
+  "shared_fraction": 0.4,
+  "duplication": 2,
+  "n_options": 4,
+  "attrs_per_option": 8,
+  "seed": 1127
+ }
+}
