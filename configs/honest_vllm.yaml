@@ -1,0 +1,29 @@
+# Honest-setting COORDINATION benchmark through a vLLM server.
+# All agents are `api` backends pointed at vLLM -> no HF model, no activation
+# capture (capture needs the HF white-box backend; irrelevant for coordination).
+# Swap the model per run with --set, e.g.:
+#   python scripts/run_experiment.py --config configs/honest_vllm.yaml --limit 40 \
+#     --set agents.backends.blackbox.model=Qwen/Qwen3-8B \
+#           agents.backends.whitebox.model=Qwen/Qwen3-8B \
+#           run_name=honest_qwen3_8b
+# Non-thinking models (Qwen2.5, Llama, Gemma, Ministral): use as-is.
+# Qwen3 models: also pass, to stop <think> eating the token budget --
+#     agents.backends.blackbox.extra_body="{extra_body: {chat_template_kwargs: {enable_thinking: false}}}" \
+#     agents.backends.whitebox.extra_body="{extra_body: {chat_template_kwargs: {enable_thinking: false}}}"
+run_name: honest_vllm
+out_dir: runs
+tasks:
+  source: dir
+  dir: tasks/eval            # gen with: scripts/gen_tasks.py --out tasks/eval --n 300 --seed0 1000
+agents:
+  n_whitebox: 0              # 0 readers -> every agent uses the `blackbox` (api/vLLM) backend
+  backends:
+    whitebox: {type: api, model: Qwen/Qwen3-8B, base_url: http://localhost:8000/v1, api_key_env: NONE}
+    blackbox: {type: api, model: Qwen/Qwen3-8B, base_url: http://localhost:8000/v1, api_key_env: NONE}
+malice: {enabled: false}
+graph: {type: complete}
+rounds: {max: 10, min: 3}
+generation: {max_new_tokens: 350, temperature: 0.0}
+conditions: [honest]         # honest only = pure coordination measurement
+seeds: [0]
+orchestrator: {enabled: false}
